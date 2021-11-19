@@ -1,0 +1,108 @@
+\renewcommand{\familydefault}{\sfdefault}
+\documentclass{scrartcl}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage[margin=1.2in]{geometry}
+\usepackage{wrapfig}
+
+\begin{document}
+\title{SYPT Week 6 - Collision}
+\author{Li XinRui}
+\date{08 12 2020}
+\setlength\parindent{0pt}
+
+\maketitle
+\section{Kinematics}
+$$\omega=\dot\phi$$
+$$\alpha=\ddot\phi$$
+Centre of Mass:
+$$
+    \begin{cases}
+      \ddot{y}_{\textsf{c}}=\ddot{y}_{\textsf{p}}+\ddot \phi \, \ell \sin\phi-\dot \phi^2 \ell \cos\phi\\
+      \ddot{x}_{\textsf{c}}=\ddot{x}_{\textsf{p}}+\ddot \phi \, \ell \cos \phi+ \dot \phi^2 \ell \sin\phi
+    \end{cases}    
+$$
+
+
+\section{Dynamics}
+\subsection{Spring-Mass-Damper}
+$$N-mg=m\ddot{y}_{\textsf{c}}$$
+$$N-mg=m(\boxed{\ddot{y}_{\textsf{p}}}+\boxed{\ddot \phi} \ell \sin\phi-\dot \phi^2 \ell \cos\phi)$$
+Finding $\ddot{y}_{\textsf{p}}$:
+$$
+\boxed{
+\begin{aligned}
+m\ddot{y}_{\textsf{p}}=-mg-kx^\frac{3}{2}-c\dot{y}_{\textsf{p}}\\
+\boxed{\ddot{y}_{\textsf{p}}}=-g-\frac{k}{m}x^\frac{3}{2}-\frac{c}{m} \boxed{\dot{y}_{\textsf{p}}}\\
+\end{aligned}
+}
+$$
+$\ddot \phi$ depends on whether the friction is static or kinetic.
+
+\subsection{Friction}
+\subsubsection{Kinetic friction}
+$$F_{\textsf{fric}}=m\ddot{x}_{\textsf{c}}$$
+$$F_{\textsf{fric}}=m(\boxed{\ddot{x}_{\textsf{p}}}+\boxed{\ddot \phi} \ell \cos \phi+ \dot \phi^2 \ell \sin\phi)$$
+$$\mu_kN=F_{\textsf{fric}}$$
+$$\boxed{F_{\textsf{fric}}=
+\mu_km(\ddot{y}_{\textsf{p}}+\ddot \phi \ell \sin\phi-\dot \phi^2 \ell \cos\phi+g)}$$
+\vspace{\baselineskip}
+Finding $\ddot \phi$ using method \textcircled{1}:
+$$I\ddot \phi=N\ell\sin\phi-F_{\textsf{friction}}\ell\cos\phi$$
+$$I\ddot \phi=N\ell\sin\phi-\mu_kN\ell\cos\phi$$
+$$\ddot \phi=\frac{N\ell(\sin\phi-\mu_k\cos\phi)}{I}$$
+
+$$\boxed{\ddot \phi=\frac{m\ell(\ddot{y}_{\textsf{p}}+\ddot \phi \ell \sin\phi-\dot \phi^2 \ell \cos\phi+g)(\sin\phi-\mu_k\cos\phi)}{I}}$$
+
+\vspace{\baselineskip}
+Finding $\ddot \phi$ using method \textcircled{2}:
+$$
+    \begin{cases}
+      N-mg=m(\ddot{y}_{\textsf{p}}+\ddot \phi \ell \sin\phi-\dot \phi^2 \ell \cos\phi)\\
+      F_{\textsf{fric}}=
+\mu_km(\ddot{y}_{\textsf{p}}+\ddot \phi \ell \sin\phi-\dot \phi^2 \ell \cos\phi+g)\\
+      I\ddot \phi=N\ell\sin\phi-F_{\textsf{friction}}\ell\cos\phi
+    \end{cases}    
+$$
+
+Solving the equation simultaneously for $\ddot\phi$ and rearranging the terms,
+$$\boxed{m\ell \sin \theta (g+ \ddot y_p)-m\ell \cos\theta \, \ddot x_p=I\ddot \phi}$$
+Solving for $\ddot \phi$, the same solution will be obtained.
+
+\subsubsection{Static friction}
+$$\ddot x_p=0$$
+$$F_{\textsf{friction}}=m(\boxed{\ddot \phi} \ell \cos \phi+ \dot \phi^2 \ell \sin\phi)$$
+Non-slip condition:
+$$m(\ddot \phi \ell \cos \phi+ \dot \phi^2 \ell \sin\phi)\leq \mu_sN$$
+$$m(\ddot \phi \ell \cos \phi+ \dot \phi^2 \ell \sin\phi)\leq \mu_sm(\ddot{y}_{\textsf{p}}+\ddot \phi \ell \sin\phi-\dot \phi^2 \ell \cos\phi+g)$$
+$$\boxed{\mu_s\geq\frac{(\ddot \phi \ell \cos \phi+ \dot \phi^2 \ell \sin\phi)}{(\ddot{y}_{\textsf{p}}+\ddot \phi \ell \sin\phi-\dot \phi^2 \ell \cos\phi+g)}}$$
+
+\vspace{\baselineskip}
+Finding $\ddot \phi$:
+$$\boxed{m\ell \sin \theta (g+ \ddot y_p)-m\ell \cos\theta \, \ddot x_p=I\ddot \phi}$$
+$$\ddot x_p=0$$
+Moment of inertia about $I_{\textsf{p}}=I_{\textsf{c}}+m\ell^2$
+$$m(g+\ddot y_p)\ell \sin \phi=I_p\ddot \phi$$
+$$\ddot \phi=\frac{m(g+\ddot y_p)\ell\cos\phi}{I}$$
+
+\section{Time of collision}
+Capsule will leave the ground when normal force becomes 0:
+$$0=m(\ddot{y}_{\textsf{p}}+\ddot \phi \ell \sin\phi-\dot \phi^2 \ell \cos\phi+g)$$
+
+\section{Some other things}
+$\ell$ is a function of $\theta$:
+$$\ell (\theta) = R  \sqrt{2(1+\sin\theta)}$$
+\vspace{\baselineskip}
+
+$\phi$ is also a function of $\theta$:
+$$\phi(\theta)=-\frac{\pi-2\theta}{4}$$
+\vspace{\baselineskip}
+
+$\ell$ is therefore a function of $\phi$:
+$$\ell(\phi) = R  \sqrt{2(1+\sin\frac{4\phi+\pi}{2})}$$
+
+\end{document}
+
+
