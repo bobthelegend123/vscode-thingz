@@ -1,0 +1,57 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{amsmath}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage[margin=1.2in]{geometry}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{natbib}
+\usepackage{graphicx}
+
+\title{Problem 1 - Magnetized ball}
+\date{13/12/2021}
+
+\begin{document}
+\maketitle
+
+Since magnetisation is uniform, the bound current density within the sphere is:
+\begin{equation}
+    J=\nabla \times M=0
+\end{equation}
+
+On the other hand, the bound surface current density is 
+\begin{equation}
+    K=M \cdot n
+\end{equation}
+where $n$ is the surface normal vector.
+We can find the vector potential of the uniformly magnetised sphere:
+\begin{equation}
+    A= \frac{\mu_0}{4\pi} \int \frac{K}{r} R^2 \sin\theta d\theta d\phi
+\end{equation}
+And find the B field using $B=\nabla \times A$
+
+Finally, we obtain the magnetic field inside a uniformly magnetised sphere as
+\begin{equation}
+    B=\frac{2}{3} \mu_0 M
+\end{equation}
+The total magnetic dipole of this sphere would then be:
+\begin{equation}
+    m=M \frac{4}{3} \pi R^3
+\end{equation}
+
+\begin{equation}
+    m= \frac{2 B \pi R^3}{\mu_0}
+\end{equation}
+
+The initial and final magnetic field inside the sphere can be found based on the graph given (the y intercepts):
+
+\begin{equation}
+    \Delta m= \frac{2 (B_{20}-B_{120}) \pi R^3}{\mu_0}= \boxed{0.85 A m^2} (to 2 s.f) 
+\end{equation}
+
+($B_{20}-B_{120}\approx 0.17 T$)
+
+
+\end{document}

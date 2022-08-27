@@ -1,0 +1,81 @@
+\renewcommand{\familydefault}{\sfdefault}
+\documentclass{scrartcl}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage{natbib}
+\usepackage{graphicx}
+
+\begin{document}
+\title{EuPhO Selection test 2022}
+\author{Xin Rui}
+\date{March 2022}
+\setlength\parindent{0pt}
+
+\maketitle
+
+% \noindent\fbox{%
+%     \parbox{\textwidth}{%
+%         \textbf{Important:}We shall assume that the radius and shape of the rotor blades is kept constant(can vary that later) and that airflow is laminar.
+%     }%
+% }
+
+\section{Projectile}
+
+\begin{enumerate}
+
+      \item A particle is launched as angle $\theta$ with respect to the horizontal at initial velocity $v_0$. Derive the  equation for its trajectory, $y(x)$.
+      \item Calculate the horizontal range of the projectile, hence find the angle at which the range is maximised.
+      \item Projetile evenlope question: given that the equation of the line is  in the form of $y=-b+ax^c$, find the value of $a$,$b$ and $c$.
+      \item There is a wll with height $h$ in front of the particle. The wall has negligible thickness. Find the minimum velocity needed for the particle to fly over the wall.
+      \item There is a cube with side length $L$ in front of the particle, sketch the optimal trajectory of the particle for it to fly over the cube with minimum velocity, $v_{min}$. Find $v_{min}$.
+      \item Same question except replace the cube with a sphere with radius $R$ (sketch the optimal trajectory and minimum velocity).
+
+\end{enumerate}
+
+\section{Metal bawl}
+A metal ball with mas $M$, radius $R$, specific heat capacity $c$, and linear thermal expansion coefficient $\alpha$. A certain amount of heat $Q$ was supplied to heat up the metal ball.
+\begin{enumerate}
+      \item Find the change in temperature of the metal ball when
+            \begin{itemize}
+                  \item the ball is placed on the table
+                        $$Q=mc\Delta T + mgR\alpha\Delta T$$
+                        as heat is required to both increase the balls temperature and increase its GPE.
+                        Making $\Delta T$ the subject gives:
+                        $$\Delta T=\frac{Q}{mc+mgR\alpha}$$
+                  \item the ball is hung by a string
+                        $$mc\Delta T= mgR\alpha\Delta T+Q$$
+                        $$\Delta T = \frac{Q}{mc-mgR\alpha}$$
+            \end{itemize}
+      \item A heat engine is blah blah blah.... heat spplied then do work then some heat wasted blah blah. Now, imagine the following process
+            \begin{enumerate}
+                  \item the ball is first placed on the table. A certain amount of heat, $Q$ is supplied to heat up the ball from its initial temperature $T_0$ to $T_1$.
+                  \item the table is then removed, and the ball (currently at temperature $T_1$) is now tied to a string and hung from the ceiling. $Q'$ is removed from the ball to cool its temperature down back to $T_0$.
+                  \item The ball is placed back on the table
+            \end{enumerate}
+            Express $T_1$ and $Q'$ in terms of known constants as well as $T_0$ and $Q'$.
+            To find $T_1$, idk just add $\Delta T_{gain}$ to $T_0$ lol not sure.
+
+            $$T_1=T_0+\Delta T_{gain}=\frac{Q}{mc+mgR\alpha}$$
+
+            $$mc\Delta T_{loss} =Q'+mgR\alpha\Delta T_{loss}$$
+            $$T_{loss}=\frac{Q'}{mc-mgR\alpha}$$
+
+            To find $Q'$, we know that $\Delta T_{gain}=\Delta T_{loss}$.
+
+            $$\frac{Q'}{mc-mgR\alpha}=\frac{Q}{mc+mgR\alpha}$$
+            $$Q'=Q \bigg(\frac{c-gR\alpha}{c+gR\alpha}\bigg)$$
+
+      \item Find the change in height of the centre of mass of the steel ball after this cycle was repeated.
+
+            I actually got 0 for this question :) it kinda makes sense since the initial and final temperature of the balls are the same so the radius shouldn't change. Right??
+      \item Calculate the thermodynamic efficiency of this process.
+
+            Idk what i am even doing at this point since my answer was 0 for the previous question. So i just listed down the equations
+            $$\eta=\frac{mg\Delta h}{Q-Q'}=\frac{1}{2}$$
+            but now when i think about it, i think the numerator should be $$2mg\Delta h$$, so the efficiency would be 1 instead!
+      \item As $g$, the gravitational acceeration becomes large, the efficiency will exceed 100 percent, prove that from your previous calculation.
+      \item Hence, account for the difference between the theoretical efficiency and the actual efficiency.
+\end{enumerate}
+
+\end{document}
+

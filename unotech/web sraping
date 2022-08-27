@@ -1,0 +1,172 @@
+import json
+import csv
+from bs4 import BeautifulSoup
+import aiohttp
+import asyncio
+import os
+
+
+def clean_text(text: str) -> str:
+    """Returns a cleaned up version of a string
+
+    Args:
+        text (str): The string to clean up
+
+    Returns:
+        str: The cleaned up version of the string
+    """
+    return text.strip("\n\t\r").replace("\n", " ")
+
+
+async def get_page(page: int) -> list[dict]:
+    """Scrapes the page and returns a list of and their respective details
+
+    Args:
+        page (int): the page number to scrape
+
+    Returns:
+        list[dict]: list of clinics and their details
+    """    """"""
+    data = {
+        "__EVENTTARGET": "ctl00$ctl55$g_351c148f_5ddb_4aaa_823d_23e329509409$ctl00$grvGPResult",
+        "__EVENTARGUMENT": f"Page${page}",
+    }
+    url = "https://www.singhealth.com.sg/rhs/GP-Result?ClinicName=&ProgrammesAndInitiatives=&OpenHours=&Location="
+
+    try:  # check if html file for the website exists
+        with open(f"page-{page}.html"):
+            pass
+        print(f"Page {page}: [LOCAL COPY]")
+
+    except IOError:  # if not, download it
+        async with aiohttp.ClientSession() as session:
+            async with session.post(url, data=data) as r:
+                if r.status != 200:
+                    print(
+                        f"Page {page} did not return 200 (returned {r.status}), retrying..")
+                    return await get_page(page)
+
+                with open(f"page-{page}.html", "w+", encoding='utf-8') as f:
+                    f.write(await r.text())
+
+                print(f"Page {page}: <Response [{r.status}]>")
+
+    with open(f"page-{page}.html") as f:
+        soup = BeautifulSoup(f.read(), 'html.parser')
+
+    clinics = soup.find_all('td', class_='ms-vb2')
+
+    # ! Error in the page html code, redownload the page
+    if len(clinics) != 6 and page != 280:
+        os.remove(f"page-{page}.html")
+        print(f"Page {page} has {len(clinics)} clinics, expected 6")
+        return await get_page(page)
+
+    clinics_data = []
+
+    for clinic in clinics:
+        # find name of clinic
+        name = clean_text(clinic.div.label.text)
+
+        # find address of clinic
+        address = clean_text("".join([
+            x.text
+            for x in clinic.div.find_all("a")
+        ]))
+
+        # find contact number of clinic
+        contacts = clinic.div.find(
+            "div", class_="sh-detail-contact-item-phone").text.replace("\n", "")
+
+        if "F +65" in contacts:
+            # ? contacts[6:]  removes the "T + 65 "
+            telephone, fax = contacts[6:].split("F +65 ")
+        else:
+            telephone, fax = contacts[6:], None
+
+        # find opening hours of clinic
+        opening_hrs = {
+            line.span.text: line.text.lstrip(line.span.text).rstrip("\n\r\t ")
+            for line in clinic.div.find_all("p")
+            if line.span
+        }
+
+        # find closing hours of clinic
+        closure = "".join([
+            line.p.text.replace("Clinic's Closure Period: ", "")
+            for line in clinic.find_all("div")
+            if line.p and not line.p.label
+            # ? check for line.p first to not get an attribute error from line.p.label
+            # ? line.p.label is the label of "located xxx km from you"
+        ])
+
+        # find programmes offered by clinic
+        prog_links = [line.img.get("src") for line in clinic.find_all(
+            "div", class_="row no-margin") if line.img]
+
+        prog = []
+        for link in prog_links:
+            if "CHAS" in link:
+                prog.append("CHAS")
+            if "gpfirst-cgh" in link:
+                prog.append("GP First")
+            if "" in link:
+                prog.append("CDMP")
+            if link and "CHAS" not in link and "gpfirst-cgh" not in link:
+                raise Exception(f"Unknown programme: {link}")
+
+        clinics_data.append({
+            "name": name,
+            "address": address,
+            "contact": {
+                "telephone": telephone,
+                "fax": fax,
+            },
+            "open": opening_hrs,
+            "closure": closure,
+            "programmes": prog,
+        })
+
+    return clinics_data
+
+
+async def main():
+    tasks = []
+    data = []
+
+    for i in range(1, 281):
+        task = asyncio.ensure_future(get_page(i))
+        tasks.append(task)
+
+    results = await asyncio.gather(*tasks)
+    for page in results:
+        data.extend(page)
+
+    print(
+        f"There are {len(data)} clinics, please verify if this matches the actual Singhealth website")
+
+    # dump clinics_data to json
+    with open('clinics-output.json', 'w+') as f:
+        json.dump(data, f, indent=4)
+
+    # format data to put into csv
+    for clinic in data:
+        clinic["programmes"] = ", ".join(clinic["programmes"])
+        clinic["telephone"] = clinic["contact"]["telephone"]
+        clinic["fax"] = clinic["contact"]["fax"]
+        clinic.pop("contact")
+        clinic["open"] = ", ".join(
+            [f"{k}{v}" for k, v in clinic["open"].items()])
+
+    # dump clinics_data to csv
+    with open('clinics-output.csv', 'w+') as f:
+        writer = csv.DictWriter(f, fieldnames=data[0].keys())
+        writer.writeheader()
+        for clinic in data:
+            writer.writerow(clinic)
+
+    print("Task complete.")
+
+# asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+# uncomment above line if you are running on windows
+asyncio.run(main())

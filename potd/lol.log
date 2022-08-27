@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.10.17)  15 NOV 2021 22:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.10.17)  21 MAR 2022 22:14
 entering extended mode
-**c:/Users/licyn/latex/potd/lol.tex
-(c:/Users/licyn/latex/potd/lol.tex
+**"c:/Users/licyn/vscode thingz/potd/lol.tex"
+(c:/Users/licyn/vscode thingz/potd/lol.tex
 LaTeX2e <2021-06-01> patch level 1
 L3 programming layer <2021-10-12> (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
@@ -328,14 +328,14 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 {C:/Users/licyn/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2] (lol.aux) ) 
 Here is how much of TeX's memory you used:
  12278 strings out of 478927
- 251822 string characters out of 2852534
+ 251884 string characters out of 2852534
  528061 words of memory out of 3000000
  29942 multiletter control sequences out of 15000+600000
  408279 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,10n,108p,458b,827s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 102i,10n,108p,486b,827s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/licyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/licyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/licyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/licyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/licyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/licyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/licyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/licyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/licyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/licyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on lol.pdf (2 pages, 110845 bytes).
+Output written on lol.pdf (2 pages, 110428 bytes).
 PDF statistics:
  62 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

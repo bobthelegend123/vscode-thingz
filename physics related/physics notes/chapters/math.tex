@@ -1,0 +1,106 @@
+\chapter{Math}
+\section{Single variable calculus}
+\section{Multi-variable calculus}
+\subsection{Why does gradient points in direction of greatest ascent}
+\begin{mybox}{green}{Intuition - Explanation 1}
+    Easy explanation (imo): "Gradient" is defined as the vector summation of
+    \begin{equation}
+        \nabla{f}=\frac{\partial f}{\partial x} \hat{i}+\frac{\partial f}{\partial y}\hat{j}+ .....
+    \end{equation}
+    the maximum rate of change along the individual axes. So naturally, the summation of these rate of changes would give the maximum rate of change as well.
+\end{mybox}
+
+\begin{mybox}{green}{Intuition/Proof - Explanation 2 (by \textbf{Yi Fan})}
+    Single variable tangent line approximation:
+    \begin{equation}
+        f(x)\approx f(x_0)+ f'(x_0)(x-x_0)
+    \end{equation}
+
+    Multi-variable (2 in this case) tangent \textbf{plane} approximation:
+    \begin{equation}
+        f(x,y)-f(x_0,y_0) \approx f_x(x_0,y_0)(x-x_0) + f_y(x_0,y_0)(y-y_0)
+    \end{equation}
+    where $f_x$ and $f_y$ denotes partial derivatives with respect to $x$ and $y$ respectively.
+
+    \begin{flushleft}
+        Locally if we zoom in near $(x_0, y_0)$ this shows that any nice function is just a plane.
+    \end{flushleft}
+    \begin{flushleft}
+        Then now suppose our plane is given by $z = ax + by$, where we take reference point to be the origin (otherwise we can just translate the function).
+    \end{flushleft}
+    \begin{flushleft}
+        Now you can think of it as $z = (a,b)\cdot (x,y)$ where we have a dot product, and we want to find the direction $(x,y)$ that maximises this. ($a = f_x(x_0, y_0)$ and $b = f_y(x_0,y_0)$)
+    \end{flushleft}
+    \begin{flushleft}
+        But dot product is maximised when the vector points in parallel direction. So we must have $(x,y) = k(a,b)$ for some constant $k$.
+    \end{flushleft}
+    \begin{flushleft}
+        So essentially, we are trying to move $(x,y)$ around such that we can get the maximum $z$ value. And we realised that when $(x,y)$ is aligned with the gradient, the maximum $z$ value is achieved. Hence, \textbf{gradient always points in direction of greatest ascent.}
+    \end{flushleft}
+
+\end{mybox}
+
+\subsection{Divergence}
+\subsection{Curl}
+
+\section{Differential equations}
+\subsection{Linear differential equations - from Hexiang's slides}
+If you want to solve something simple like
+$$\frac{dy}{dx}=ay,$$
+one could use separation of variables
+$$\int dx=\frac{1}{a}\int \frac{1}{y} dy$$
+$$x+d=\frac{\ln(y)}{a}+c$$
+$$ax+c=\ln(y)$$
+$$y=e^{ax+c}=e^{ax}e^c$$
+which can be generalised to
+$$y=Ae^{ax}.$$
+Alternatively, we can also guess some solution, maybe $y=e^{cx}$ will do. $\frac{dy}{dx}=ce^cx$. Hence, $c=a$. This solution wil still hold true when we multiply it by an arbitrary constant ($y=Ae^{ax}$).
+
+\subsection{Solution to $\ddot x=-\omega^2 x$}
+Let's try subbing in $x=Ae^{ct}$ again and see what we get,
+$$\ddot x= c^2 A e^{ct}$$
+$$c^2 A e^{ct}=-\omega^2 Ae^{ct}$$
+$$c=\pm i\omega$$
+So there are 2 possible values for $c$, hence 2 solutions for $x$ ($Ae^{i\omega t}$ or $Ae^{-i\omega t}$)
+For a linear differential equation (in this case it is), the most general solution would be the \textbf{linear combination} of the individual solutions
+$$\boxed{x=A_1 e^{i\omega t} + A_2 e^{-i\omega t}}$$
+Using \textbf{Euler's identity}
+$$x=A_1(\cos(\omega t)+i \sin(\omega t))+A_2(\cos(-\omega t)+i \sin(-\omega t))$$
+$$x=(A_1+A_2)\cos(\omega t)+i(A_1-A_2) \sin(\omega t)$$
+$$x=B\cos(\omega t)+C\sin(\omega t)$$
+which can then be converted to the form which we are more familiar with (r-formula): $$\boxed {x=A\sin(\omega t + \phi) \quad \textsf{or}\quad x=A\cos(\omega t + \phi).}$$ Since we absorbed $i$ into the constants, $A$ and $\phi$ are both complex right now. However, we can just impose the conditions that they must always be real for physical purposes.
+\subsection{Integrating fractor}
+If you have an equation in the form of
+
+\begin{align}
+    \frac{dy}{dx}+P(x)y &= Q(x)\\
+    M(x)\frac{dy}{dx}+M(x)P(x)y &= M(x)Q(x)\\
+\end{align}
+
+You can multiply both side by an integrating factor $M(x)$, such that the LHS becomes the result of a product rule. This is useful because once we can get it to be like product rule, we can integrate both side and solve for $y$.
+
+\begin{align}
+    M(x)y &= \int Q(x)M(x)dx\\
+    y &= \frac{\int Q(x)M(x)dx}{y}
+\end{align}
+
+How do we find this integrating factor?
+
+\begin{equation}
+    M'(x)=M(x)P(x)
+\end{equation}
+
+\begin{equation}
+    \boxed{M(x)=\exp\bigg(\int P(x)dx \bigg)}
+\end{equation}
+
+\section{Cool integrals}
+\subsection{Gaussian integral}
+\begin{equation}
+    \int_{-\infty}^\infty e^{-x^2}dx=\sqrt{\pi}
+\end{equation}
+
+\begin{equation}
+    \int_{-\infty}^\infty e^{-\alpha x^2}dx=\sqrt{\frac{\pi}{\alpha}}
+\end{equation}
+Very useful in thermodynamics. 

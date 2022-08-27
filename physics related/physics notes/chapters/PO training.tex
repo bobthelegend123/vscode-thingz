@@ -1,0 +1,110 @@
+\chapter{PO training}
+
+\section{18/08/22}
+\subsection{Gallilean Invariance}
+All things in newtonian physics has to obey \textbf{gallilean invariance}, meaning that the laws have to hold true in every inertial reference frame (i.e. stationary frame/frame moving at constant $v$)
+
+In school, we are taught that since $\mathbf{F}=\frac{d\mathbf{p}}{dt}$ where $\mathbf{p}=m \mathbf{v}$, by chain rule, we will get 
+
+\begin{equation}
+    \mathbf{F}=\frac{d (m\mathbf{\vec{v}})}{dt}=m\frac{d\mathbf{v}}{dt}+\mathbf{v} \frac{dm}{dt}
+\end{equation}
+
+Now, we shall verify the galliean invariance of the equation above. Let's have a frame $S'$ moving at constant velocity $\mathbf{u}$. The force, mass,velocity and time in $S'$ are denoted with a prime ($'$). Note that this frame is \textbf{inertial} and \textbf{all newtonian laws should hold in inertial frames}.
+
+\begin{align}
+    \mathbf{F}'=m'\frac{d\mathbf{v'}}{dt'}+\mathbf{v'} \frac{dm'}{dt'}
+\end{align}
+
+Since mass time and force are invariant, and $\mathbf{v'}=\mathbf{v}-\mathbf{u}$, we can rewrite it as 
+\begin{equation}
+    \mathbf{F}=m\frac{d\mathbf{v}}{dt}+(\mathbf{v}-\mathbf{u})\frac{dm}{dt}
+\end{equation}
+which is definitely not the same as the equation above. Hence, it is proven that the equation 7.1 is \textbf{not} gallilean invariant.
+
+\subsection{rocket momentum}
+However, in some special cases, the "wrong" equation can still be applied. 
+Let the mass and velocity of a rocket be $m(t)$ and $v(t)$ respectively. 
+At time $t'=t+\Delta t$
+\begin{align}
+    m(t)v(t) 
+    &= m(t')v(t')+ (m(t')-m(t))(v(t')-u)\\
+    &= (m(t)+\Delta m)(v(t)+\Delta v)+(-\Delta m)(v(t)+\Delta v - u)
+\end{align}
+
+where $u$ is the speed of the fuel (particle) emitted.
+
+Expanding the equation, we get
+\begin{equation}
+    m(t)v(t)=m(t)v(t)+m(t)\Delta v+\Delta m v(t)+\Delta m \Delta v -\Delta m v(t)-\Delta m \Delta v - \Delta m u 
+\end{equation}
+
+Simplifying everything, we get 
+\begin{equation}
+    m dv+u dm = 0
+\end{equation}
+
+\section{25/08/22}
+\subsection{linear independence of solution}
+From wikipedia: A sequence of vectors $\mathbf{v_1},\mathbf{v_2},...\mathbf{v_k}$ from a vector space $V$ is said to be \textbf{linearly dependent} if there exist scalars $a_1,a_2,...,a_k$, not all zero, such that 
+\begin{equation}
+    a_1 \mathbf{v_1}+a_2 \mathbf{v_2}+...+a_k \mathbf{v_k}= \mathbf{0}
+\end{equation}
+where $\mathbf{0}$ denotes the zero vector. 
+basically, as long as the vectors are not parallel, they are \textbf{linearly independent}
+
+\section{27/08/22}
+\subsection{Newton-Raphson method}
+for example if you wanna solve
+\begin{equation}
+    y=f(x)=0
+\end{equation}
+you can kinda use
+\begin{equation}
+    x_{n+1}=x_n-\frac{f(x_n)}{f'(x_n)}
+\end{equation}
+
+ but its kinda useless
+
+ \subsection{PS 2 Q 7}
+ how to decide the direction of static friction? do torque about the contact point (where static friction acts), and realise that torque by $F$ has to result in a clockwise rotation (into the page). This means that torque about the COM also has to be clockwise, meaning that static frction points in the opposite direction of $F$. 
+
+\textbf{Kenneth Hong's solution}
+Translational motion of the center of mass
+\begin{equation}
+    F \cos \theta - f_s= ma_{CM,x}
+\end{equation}
+Rotational mostion about the centre of mass $I=M(a^2+b^2)/2$
+\begin{equation}
+    f_s a - Fb=I\alpha
+\end{equation}
+
+with the additional no slip condition ($a_{CM,x}=a\alpha$) and solving for pure rolling, you get
+\begin{equation}
+    \begin{cases}
+        a_{CM,x}=\frac{F/M}{1+I/Ma^2}(\cos\theta-\frac{b}{a})\\
+        f_s=\frac{F}{1+I/Ma^2}(\frac{I}{Ma^2}\cos\theta+\frac{b}{a})
+      \end{cases}
+\end{equation}
+
+Maximum tension:
+\begin{equation}
+    f_s \leq \mu_s (Mg-F \sin\theta)
+\end{equation}
+\begin{equation}
+    T_{max}=\frac{\mu_s (1+I/Ma^2)/Mg}{(I/Ma^2)\cos\theta+\mu_s(1+I/Ma^2)\sin\theta+b/a}
+\end{equation}
+
+\subsection{PS 2 Q 8}
+
+\indent Workdone by friction on a rolling and \textbf{slipping} object is not just $W=f_k \cdot d$, where $d$ is the displacement of the centre of mass.
+
+It is actually
+\begin{align}
+    W_{f_k} 
+    &= W_{\textsf{trans}}+W_{\textsf{rot}}\\
+    &= \int_0^{\Delta x} f_k dx - \int_0^{\Delta \theta} \tau d \theta 
+\end{align}
+
+Note that it is a minus sign because in the question, friction is adding energy in the translational motion, but removing energy in the rotational motion. 
+

@@ -1,0 +1,135 @@
+\renewcommand{\familydefault}{\sfdefault}
+\documentclass[12pt,a4paper]{extreport}
+\usepackage{hyperref}
+\usepackage{mathtools}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage{natbib}
+\usepackage{wrapfig}
+\usepackage[final]{graphicx}
+\usepackage[most]{tcolorbox}
+\usepackage{amssymb}
+\usepackage{tikz}
+\usepackage{float}
+\usepackage{amsthm}
+\renewcommand{\qedsymbol}{$\blacksquare$}
+\usepackage[margin=1in]{geometry}
+\usepackage{xcolor}
+%Options: Sonny, Lenny, Glenn, Conny, Rejne, Bjarne, Bjornstrup
+\usepackage[Bjornstrup]{fncychap}
+\interfootnotelinepenalty=10000
+
+\usepackage{tikzlings}
+\usepackage{tikzlings-penguins}
+
+\usepackage{fancyhdr}
+\usetikzlibrary{lindenmayersystems}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Physics notes}
+\lhead{Bob The Legend}
+\rfoot{\thepage}
+
+\makeatletter
+% restore footnote internals to those in normal page, not minipage
+\def\tcb@restore@footnote{%
+  \def\@mpfn{footnote}%
+  \def\thempfn{\arabic{footnote}}%
+  \let\@footnotetext\tcb@footnote@collect
+}
+
+% collect footnote text
+\long\def\tcb@footnote@collect#1{%
+  % expand \@thefnmark before appending before app to \tcb@footnote@acc
+  \expandafter\gappto\expandafter\tcb@footnote@acc\expandafter{%
+    \expandafter\footnotetext\expandafter[\@thefnmark]{#1}%
+  }%
+}
+
+\def\tcb@footnote@use{%
+  \tcb@footnote@acc
+  \global\let\tcb@footnote@acc\@empty
+}
+\global\let\tcb@footnote@acc\@empty
+
+
+\tcbset{
+  % restore for every box
+  every box/.style={
+    before upper pre=\tcb@restore@footnote
+  },
+  % use for layer 1 boxes only
+  every box on layer 1/.append style={
+    after app=\tcb@footnote@use
+  }
+}
+\makeatother
+ 
+\numberwithin{equation}{chapter}
+
+
+\let\oldhat\hat
+\renewcommand{\hat}[1]{\oldhat{\mathbf{#1}}}
+\renewcommand{\vec}[1]{\mathbf{#1}}
+
+\newtcolorbox{mybox}[3][]
+{ enhanced,
+  breakable,
+  colframe = #2!25,
+  colback  = #2!10,
+  coltitle = #2!20!black,  
+  title    = {#3},
+  #1,
+}
+
+
+\newcommand{\roundpic}[4][]{
+  \tikz\node [circle, minimum width = #2,
+    path picture = {
+      \node [#1] at (path picture bounding box.center) {
+        \includegraphics[width=#3]{#4}};
+    }] {};}
+
+
+
+\definecolor{titlepagecolor}{cmyk}{1,.60,0,.40}
+\definecolor{namecolor}{cmyk}{1,.50,0,.10} 
+
+\begin{document}
+
+
+\begin{titlepage}
+    \pagecolor{titlepagecolor}
+    \begin{center}
+        \roundpic[xshift=-0cm,yshift=-0cm]{3.9cm}{3.9cm}{logo.jpg}
+        \color{white}
+        \par
+        \textbf{\textsf{Bob The Legend}}\\
+        \textcolor{namecolor}{\textsf{fisik is phunn}}
+        \vfill
+        \noindent
+        {\huge \textsf{Physics Notes}}
+        \vskip\baselineskip
+        \noindent
+        \textsf{August 2021}
+    \end{center}
+
+\end{titlepage}
+\restoregeometry % restores the geometry
+\nopagecolor% Use this to restore the color pages to white
+
+\tableofcontents
+
+\cleardoublepage
+\setlength\intextsep{0pt}
+
+\include{chapters/mech.tex}
+\include{chapters/EM.tex}
+\include{chapters/thermo.tex}
+\include{chapters/fluid.tex}
+\include{chapters/special relativity.tex}
+\include{chapters/math.tex}
+\include{chapters/PO training.tex}
+
+\end{document}

@@ -1,6 +1,6 @@
-PWD c:\Users\licyn\latex\potd
+PWD c:\Users\licyn\vscode thingz\potd
 INPUT C:\Users\licyn\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\licyn\latex\potd\lol.tex
+INPUT c:\Users\licyn\vscode thingz\potd\lol.tex
 OUTPUT lol.log
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
