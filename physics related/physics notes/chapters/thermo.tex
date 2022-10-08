@@ -1,5 +1,5 @@
 \chapter{Thermodynamics}
-\section{Kinetic theory - Ryan's lesson transcript}
+\section{Kinetic theory}
 If KE is dependent on temperature, whats the difference between a cold moving ball, and a hot stationary ball. This is because the former is about \textbf{microscopic}, but the latter is about \textbf{macroscopic}. 
 
 Because it is not feasible to model the motion of every single molecules with newton's laws, it is more convenient to use probability.
@@ -72,11 +72,79 @@ Every degree of freedom will contribute $k_B T/2$ to the internal energy.
 
 More rigorous form: Each quadratic mode with energy in the form of $E=\alpha x^2$, where $x$ can be position or velocity, contributes $k_BT/2$ to the internal energy (so its not really about degree of freedom). It just so happens that both rotational and translational energy are $\propto v^2, \omega^2$
 
-\section{Ideal gas law}
+\subsection{Ideal gas law}
 \begin{equation}
     p=\frac{1}{3}n m \langle v^2 \rangle
 \end{equation}
 where $n$ is the number of molecules per unit volume. and $m$ is the mass of the molecules.
+
+\section{How molecules move}
+\subsection{Solid Angle}
+In 2D, we have $s=r\theta$. In 3D, $A=r^2 \Omega$, where $\Omega$ is the solid angle (imagine the tip of the cone), and $A$ is the curved surface at the base of the cone. $\Omega \in [0,4\pi]$, as the maximum area subtended by a solid angle is that of a sphere: $A=4\pi r^2$
+
+It is the same as if we have some angle $\theta$, and we increase by $d\theta$, the change in area on the spherical surface with unit length $1$ is $dA= 2\pi \sin \theta d\theta$. If we calculate with solid angle instead, where $\Omega \to \Omega + d\Omega$, $dA=(\Omega + d\Omega)r^2-\Omega r^2 = r^2 d \Omega$.
+Hence, we obtain the \textbf{conversion factor} between $\Omega$ and $\theta$
+\begin{equation}
+    d\Omega=2\pi \sin \theta d\theta
+\end{equation}
+
+Imagine a bunch of particle being yeeted out from a point in all direction, the proportion of particle passing through a spherical cap with solid angle $d\Omega$ is $d\Omega/4\pi = \sin \theta d\theta/2$
+
+\textcolor{blue}{\textit{There is a wall with area $A$. In time $dt$, what is the number of molecules that hit the wall that have $v \in [v,v+dv]$ and $\theta \in [\theta,\theta+d\theta]$.}}
+Let $\rho_n$ be the volume number density, the number of molecules (per unit volume) that satisfy the condition (ignoring the wall)
+\begin{equation}
+    \rho_n f(v)\bigg(\frac{1}{2}\sin\theta\bigg)\,dv\,d\theta
+\end{equation}
+The number of particles that will hit the wall with area $A$ in time $dt$ would be 
+
+\begin{equation}
+    \rho_n f(v)\bigg(\frac{1}{2}\sin\theta\bigg)\,dv\,d\theta (A v \,dt \cos \theta )
+\end{equation}
+To find the number of particles hitting the wall \textbf{per unit area} and \textbf{per unit time}, we let $A$ and $dt$ be 1 (which is abit scam). The change in momentum experienced by those particles would then be 
+\begin{align}
+    dp &= (2mv \cos \theta)  \rho_n f(v)\bigg(\frac{1}{2}\sin\theta\bigg)\,dv\,d\theta v \cos \theta \\
+    \textsf{Pressure} &= \int_{0}^{\infty}\int_0^{\frac{\pi}{2}}dp 
+\end{align}
+From here, you can derive the ideal gas equation: $pV=nRT$
+
+\subsection{Molecular flux}
+Molecular flux is the number of molecules striking the unit area per unit time (second). To calculate this, we just
+\begin{align}
+    \int_{0}^{\infty}\int_0^{\frac{\pi}{2}} &=\rho_n f(v)\bigg(\frac{1}{2}\sin\theta\bigg)\,dv\,d\theta \,v \cos \theta\\
+    \Phi &= \frac{1}{4}\rho_n \langle v \rangle
+\end{align}
+where molecular flux is usually denoted as $\Phi$. So if you have a box with a hole of area $A$ through which gas is allowed to escape, the number of molecules escaping per second would just be $N=\Phi A$. This process is called \textbf{Effusion}. Note that this formula only works if the area, $A$, is small. If $A$ is large, you will need to consider edge effects as the particles bouncing off some other surface can also escape through the hole. So, how small should the hole be? The condition is that 
+\begin{equation}
+    d \ll \lambda \, \textsf{, where $\lambda$ is the mean free path}
+\end{equation}
+The particle exiting from the small hole will \textbf{not} follow the Maxwell Boltzmann distribution becuase effusion is not a fair selection (if molecule is moving faster, it will have a higher chance of exiting the hole). 
+\subsection{mean free path}
+Mean free path is the average distance that a gas particle can travel before it collides with another particle. 
+
+The mean collision time, $\tau$, is the average time that a gas particle takes to collide with another particle. We can define $\sigma$ as the cross-sectional area of the particle, and $P(t)$ as the probability of a particle \textbf{not} colliding up to a time $t$. 
+\begin{align}
+    P(t+dt)&=P(t)+\frac{dP}{dt}dt\\
+    &= \underbrace{P(t)}_{\textsf{Probability of not colliding up till $t$}} \times \underbrace{(....)}_{\textsf{probability of not colliding in $dt$}}\\
+\end{align} 
+In time $dt$, the particle will sweep a volume of $v\sigma dt$, and we want no molecule to be inside this volume. The probability of having a molecule inside this volume is $\rho_n v \sigma dt$, hence
+\begin{equation}
+    P(t)+\frac{dP}{dt}dt=P(t)\times\underbrace{(1-\rho_n v\sigma dt)}_{\textsf{probability of not colliding in $dt$}}
+\end{equation}
+We can just solve the differential equation by separation of variable and get the probability of a molecule not colliding up to time $t$ as
+\begin{equation}
+    P(t)=\exp(-\rho_n \sigma v t)
+\end{equation}
+Probability that it collides in the next $dt$ is 
+\begin{equation}
+    \underbrace{(e^{-\rho_n \sigma v t})}_{\textsf{not colliding up till $t$}} \times \underbrace{\rho_n \sigma v dt}_{\textsf{colliding in $dt$}} 
+\end{equation}
+Averaging it out across all time,
+\begin{align}
+    \langle t \rangle &= \int_0^{\infty}t(e^{-\rho_n \sigma v t})(\rho_n \sigma v dt)\\
+    \tau &= \frac{1}{\rho_n \sigma v}
+\end{align}
+
+Since $\lambda=\langle v\rangle \tau = \langle v_r \rangle/\rho_n \sigma v$ where $v_r$ is the relative speed. And according to maxwell boltzmann disribution, $\langle v \rangle \approx \sqrt {\langle v_r ^2 \rangle} \approx \sqrt{2} \langle v \rangle$
 
 \section{First Law of thermodynamics}
 The first law of thermodynamics state that:
@@ -123,8 +191,8 @@ On the other hand, $E$ is a state dependent quantity (depends on both temperatur
     \textbf{first law of thermodynamics}, \textbf{internal energy's dependence on both temperature and volume}, as well as the fact that \textbf{heat capacity is a proportionality factor between heat input and change in temperature (internal energy)}, then shld be okay :)
 
 \end{mybox}
-\section{Quasi-static process}
-\textbf{Definition}: A thermodynamic process that happens slowly enough for the system to remain in internal \textbf{thermodynamic equilibrium} (no tendency for the state of a system to change spontaneously).
+\subsection{Quasi-static process}
+\textbf{Definition}: A thermodynamic process that happens slowly enough for the system to remain in internal \textbf{thermodynamic equilibrium} (no tendency for the state of a system to change spontaneously).or in Ryan's words: a smooth curve on the $p-V$ diagram.
 \subsubsection{Assuming a quasi-static process}
 I think for most questions that talk about isochoric, isothermal and isobaric processes, the process is assumed to be quasi-static. This is because to be isothermal, isochoric or isobaric throughout the processes, you must be able to state the temperature, pressure and volume of the system at each step, which is possible only if the system is in equilibrium continuously.
 
@@ -141,42 +209,168 @@ If the question is about adiathermal process (according to Blundell, if the proc
 
 \end{mybox}
 
-Also err i am not exactly sure why but for an adiabatic process,
-\begin{equation}
-    dQ=\bigg(\frac{\partial Q}{\partial V}\bigg)_p dV + \bigg(\frac{\partial Q}{\partial p}\bigg)_V dp=0
-\end{equation}
+\section{Second law of thermodynamics}
+\subsection{Statements and Principles}
+\subsubsection{Statements}
+\begin{itemize}
+    \item \textbf{Clausius' statement}: No process is possible whose \textbf{sole result} is the transfer of heat from a \textbf{colder to hotter} body. 
+    \item \textbf{Kelvin-Planck statement}: No process is possible whose sole result is the complete conversion of heat into work, $Q_{\textsf{in}}\neq W$.
+\end{itemize}
 
-\section{Heat engines lol}
-A Carnot engine (engine is defined as something that converts heat into work, 2 adiabats + 2 isotherms). We can prove by analysing each individual process that:
-\begin{equation}
-    \frac{Q_h}{Q_l}=\frac{T_h}{T_l}
-\end{equation}
-Efficiency a carnot engine (turns heat into work) is defined as the ratio of work done to the heat input, hence $\eta=\frac{W}{Q_h}$, where $W=Q_h-Q_l$, as the process is cyclic and there is no change in internal energy.
+\subsubsection{Carnot Prciniple}
+\begin{itemize}
+    \item An irreversible heat engine is less efficient than a reversible one. \footnote{Proven by connecting a irreversible heat engine to a reversible one, and assuming it is more efficient. This will lead to a heat transfer from the cold reservoir to the hot reservoir, which violates Clausius' Statement.}
+    \item Efficiencies of all reversible heat engines between identical heat reservoirs are the same. \footnote{Connect two reversible heat engines, A and B working in opposite directions. If A transfers from hot to cold and B transfers the other way, you will find that $\eta_A \leq \eta_B$. Swapping them will give $\eta_B \leq \eta_A$. We can conclude that $\eta_A=\eta_B$.}
+\end{itemize}
 
-\begin{flushleft}
-    However, for a refrigerator (engine run in reverse), the efficiency is defined as a different way. It is instead
-    \begin{equation}
-        \eta=\frac{Q_l}{W}
-    \end{equation}
-    It makes sense because efficiency in this case means the amount of heat you can \textbf{remove} from a refrigerator when the engine does a certain amount of work. (similar for a heat pump, where the engine does work to pump heat instead of remove heat).
-\end{flushleft}
+\subsection{Conditions for reversibility}
+\begin{itemize}
+    \item Frictionless/Quasistatic
+    \item Engine must have same temperature as reservoir.\footnote{Proven by connecting 2 reversible heat engines. The hot reservoir will gain net heat of $Q_H-Q_H=0$, same applies to the cold reservoir. By $0^{\textsf{th}}$ law of thermodynamics, they must be at the same temperature since there is no net heat transfer.} (Limit it to isothermal processes when exchanging heat, and adiabatic when not.)
+\end{itemize}
 
+Any reversible cycle working between 2 constant temperature heat reservoir should have the same efficiency as the \textbf{carnot engine}.
+
+\subsection{Clausius Inequality}
 \begin{mybox}{gray}{Clausius' inequality}
     Clausius' inequality states that for any closed loop,
     \begin{equation}
         \oint \frac{dQ}{T} \leq 0
     \end{equation}
     and equality must hold for reversible reactions.
+    If the close loop consists of an irreversible, and an reversible part, we can write 
+    \begin{equation}
+        \int_A^B \frac{dQ}{T} + \int_B^A\underbrace{ \frac{dQ_{\textsf{rev}}}{T}}_{dS} \leq 0
+    \end{equation}
+    \begin{equation}
+        dS\geq \frac{dQ}{T}
+    \end{equation}
+    In a thermally isolated system, $dQ=0$, and you will arrive at the second law of thermal dynamics: 
+    \begin{equation}
+        \boxed{dS\geq 0}
+    \end{equation}
 \end{mybox}
 
-\section{Second law of thermodynamics}
-Entropy is a state function, and it is defined as such
+\subsection{Entropy}
+Entropy is a state function (only dependent on initial and final states). For a \textbf{reversible process}, it is defined as such
 \begin{equation}
-    S(B)-S(A)=\int_A^B \frac{dQ}{T}
+    S(B)-S(A)=\Delta S= \int_A^B \frac{dQ_{\textsf{rev}}}{T}
 \end{equation}
-This is because the closed loop integral of $\frac{dQ}{T}=0$ for ideal, reversible process, showing that this quantity is path independent (state dependent just like electric potential.)
+
+In general however,
+\begin{equation}
+    \Delta S \geq  \int_A^B \frac{dQ_{\textsf{irrev}}}{T}
+\end{equation}
+
+\textcolor{blue}{It is important to note that $\Delta S$ only depends on state, so it is the same regardless of whether the process is reversible or not.}
+
+\subsubsection{Steps} {From this link: \href{https://www.physicsforums.com/insights/grandpa-chets-entropy-recipe/}{Entropy recipe}):
+\begin{enumerate}
+    \item Apply the First Law of Thermodynamics to the irreversible process to determine the final thermodynamic equilibrium state of the system
+    \item Forget about the actual irreversible process, and focus instead exclusively on the initial and final thermodynamic equilibrium states.
+    \item Devise a reversible path between the same two thermodynamic equilibrium states. This reversible path does not have to bear any resemblance whatsoever to the actual irreversible process path. \footnote{For example, even if the actual irreversible process is adiabatic, the reversible path you devise does not have to be adiabatic.  You can even separate various parts of the system from one another, and subject each of them to a different reversible path, as long as they all end up in their correct final states. Plus, there is an infinite number of reversible process paths that can take you from the initial state to the final state, and they will all give exactly the same value for the change in entropy.  So try to devise a path that is simple to work with (i.e., for which it is easy to apply step 3)}
+    \item For the selected reversible path, evaluate the integral of $dQ/T$ from the initial state to the final state, where $aQ$ is the incremental amount of heat added to the system along the sequence of changes comprising the reversible path. ($\Delta S = \int dQ_\textsf{rev}/T$), where the subscript rev refers to the reversible path.
+\end{enumerate}
+
+\subsubsection{Entropy change of system with constant heat capacity, $C$}
+\begin{equation}
+    \Delta S = \int_{T_i}^{T_f} \frac{dQ}{T} =\int_{T_i}^{T_f} \frac{C dT}{T}= C\ln\bigg(\frac{T_f}{T_i}\bigg)
+\end{equation}
+
+\subsubsection{Expansion of ideal gas from $T_i, V_i \to T_f, V_f$}
+\begin{equation}
+    \begin{aligned}
+        \Delta S = \int \frac{dQ}{T} =\int_{T_i}^{T_f} \frac{dU+pdV}{T} &= \int_{T_i}^{T_f} \frac{nC_V}{T} + \int_{V_i}^{V_f} \frac{nR}{V}dV \\
+        &= nC_V \ln \bigg(\frac{T_f}{T_i}\bigg) + nR\ln \bigg(\frac{V_f}{V_i}\bigg)\\
+    \end{aligned}
+\end{equation}
+
+\subsubsection{Joule Expansion}
+This is equivalent to and isothermal Expansion from $V_i$ to $V_f$. 
+\begin{equation}
+    \Delta S = nR \ln \bigg(\frac{V_f}{V_i}\bigg)
+\end{equation}
+
+For an adiabatic process, $dQ=0$. Hence, there is no change in entropy for an adiabatic process (\textbf{isentropic})
+
+\subsection{Fundamental Relations}
+
+Going back to the first law of thermodynamics and let $dQ=TdS$ (only true for reversible reaction), we get
+\begin{equation}
+    dU=TdS-pdV
+\end{equation}
+All variables in this system are functions of state. $dS$ and $dV$ are extensive variables while $p$ and $T$ are intensive variables. If you scale up a sysem by 2 times, entropy and volume have to increase, while temperature and pressure can still remain the same.
+
+\subsubsection{Spontaneity of process}
+Let's say a system gains $dQ$ from environment, which has instantaneous temperature and pressure of $T_\textsf{ext}$ and $p_\textsf{ext}$,
+\begin{equation}
+    dS-\frac{dQ}{T_\textsf{ext}} \geq 0 \footnote{The LHS represents the entropy change of the universe(which is always positive), where $dS$ is the increase in entropy of the system. }
+\end{equation}
+
+Applying first law of thermodynamics, the following condition must be satisfied for process to be irreversible
+\begin{equation}
+    dQ=dU+p_\textsf{ext}dV+ T_\textsf{ext}dS \leq 0
+\end{equation}
+\begin{enumerate}
+    \item \textcolor{blue}{Isolated system:} $dQ=0$, and $dS>0$ for spontaneous process.
+    \item \textcolor{blue}{Solid:} $dV=0$, $dS=0$, and $dU<0$ for spontaneous process. 
+    \item \textcolor{blue}{Constant $S$ and $p_\textsf{ext}$:} $dS=0$, $\Delta U + p_\textsf{ext} \Delta V=\Delta H <0$
+    \item \textcolor{blue}{Constant $V$ and $T_\textsf{ext}$:} $dV=0$, $\Delta U - T_\textsf{ext} \Delta S=\Delta A <0$, where A is the \textbf{Helmholtz Free Energy}.
+    \item \textcolor{blue}{Constant $p_\textsf{ext}$ and $T_{\textsf{ext}}$:} $\Delta (H-TS)=\Delta G<0$, where G is the \textbf{Gibbs Free Energy}.
+\end{enumerate}
+
+\section{Heat engines}
+A Carnot engine (engine is defined as something that converts heat into work, 2 adiabats + 2 isotherms, cyclic process). We can prove by analysing each individual process that:
+\begin{equation}
+    \frac{Q_H}{Q_L}=\frac{T_H}{T_L}
+\end{equation}
+
+The analysis is as such: 
+
+\begin{figure}[htbp]
+    \centering
+    \begin{tikzpicture}[
+        > = latex,
+        dot/.style = {draw,fill,circle,inner sep=1pt},
+        arrow inside/.style = {postaction=decorate,decoration={markings,mark=at position .55 with \arrow{>}}}
+        ]
+        \draw[<->] (0,4.3) node[above] {$p$} |- (4.3,0) node[right] {$V$};
+        \node[dot,label={above right:$A$}] (@1) at (0.5,4) {};
+        \node[dot,label={right:$B$}] (@2) at (2.5,3) {};
+        \node[dot,label={right:$C$}] (@3) at (4,1) {};
+        \node[dot,label={below left:$D$}] (@4) at (1.5,2) {};
+        \draw[arrow inside] (@1) to[looseness=.7,bend right=20] (@2);
+        \draw[arrow inside] (@2) to[looseness=.7,bend right=20] (@3);
+        \draw[arrow inside] (@3) to[looseness=.7,bend left=20] (@4);
+        \draw[arrow inside] (@4) to[looseness=.7,bend left=20] (@1);
+        \draw[dashed,thin] (0,4) node[left] {$p_A$} -- (0.5,4);
+        \draw[dashed,thin] (0.5,0) node[below] {$V_A$} -- (0.5,4);
+        \draw[red, fill=green, -{Triangle[width = 8pt, length = 7pt]}, line width = 3pt] (2.3, 3.5) node[above] {$Q_H$} -- (2.0, 2.7);
+        \draw[blue, fill=green, -{Triangle[width = 8pt, length = 7pt]}, line width = 3pt] (2.3, 2) -- (2, 1.2) node[below] {$Q_L$};
+    \end{tikzpicture}
+    \caption{Carnot engine. $AB$ and $CD$ are isotherms, while $BC$ and $DA$ are adiabats. $AB$ is maintained at constant temperature $T_H$, while $CD$ is maintained at constant temperature $T_L$.}
+    \label{carrot}
+\end{figure}
+
+\begin{enumerate}
+    \item $\boxed{A\to B}$, $Q_H=nRT_H \ln(V_B/V_A)$
+    \item $\boxed{B \to C}$, $T_H/T_L=(V_C/V_B)^{\gamma-1}$
+    \item $\boxed{C \to D}$, $Q_L=-nRT_L \ln(V_D/V_C)$
+    \item $\boxed{D \to A}$, $T_L / T_H=(V_A/V_D)^{\gamma-1}$
+\end{enumerate}
+
+Efficiency a carnot engine (turns heat into work) is defined as the ratio of work done to the heat input,
+
+\begin{equation}
+    \eta=\frac{W}{Q_H}=\frac{Q_H-Q_L}{Q_H}=1-\frac{T_L}{T_H}
+\end{equation}. 
+
+The reason why $W=Q_H-Q_L$ is because the process is cyclic and there is no change in internal energy.
 
 \begin{flushleft}
-    For an adiabatic process, $dQ=0$. Hence, there is no change in entropy for an adiabaticprocess (\textbf{isentropic})
+    However, for a refrigerator (engine run in reverse), the efficiency is defined as a different way. It is instead
+    \begin{equation}
+        \eta=\frac{Q_L}{W}
+    \end{equation}
+    It makes sense because efficiency in this case means the amount of heat you can \textbf{remove} from a refrigerator when the engine does a certain amount of work. (similar for a heat pump, where the engine does work to pump heat instead of remove heat).
 \end{flushleft}
-\section{Modes of heat transfer}
