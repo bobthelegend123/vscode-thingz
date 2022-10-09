@@ -29,7 +29,7 @@ At time $t'=t+\Delta t$
 \begin{align}
     m(t)v(t) 
     &= m(t')v(t')+ (m(t')-m(t))(v(t')-u)\\
-    &= (m(t)+\Delta m)(v(t)+\Delta v)+(-\Delta m)(v(t)+\Delta v - u)
+    &= (m(t)+\Delta m)(v(t)+\Delta v)+(\Delta m)(v(t)+\Delta v - u)
 \end{align}
 
 where $u$ is the speed of the fuel (particle) emitted.
@@ -108,3 +108,68 @@ It is actually
 
 Note that it is a minus sign because in the question, friction is adding energy in the translational motion, but removing energy in the rotational motion. 
 
+\section{08/09/2022}
+\subsection{PS2 Q15}
+
+\textbf{How to approximate} Let $\theta \to \epsilon \theta $, $\dot{\theta} \to \epsilon \dot{\theta}$ and $\ddot{\theta} \to \epsilon \ddot{\theta}$. We can let $\theta^2$ and $\dot{\theta}^2$ be 0 because at small angle, $\theta^2 \ll \theta$,$\dot{\theta}^2 \ll \dot{\theta}$. Simple harmonic oscillators are only to first order. ($\epsilon \ll 1$)
+
+\subsection{symmetry of field}
+\textbf{Only when these symmetries are satisfied, then one can use gauss's law to solve the problem}
+\subsubsection{spherical}
+About the center point, to prove that it is symmetric, the field has to remain the same after
+
+\begin{compactitem}
+    \item rotation about any axis through the point
+    \item plane mirror through the point
+\end{compactitem}
+
+examples include electric field and gravitational field.
+
+\subsubsection{cylindrical}
+About the line/axis, the field has to remain the same after
+\begin{compactitem}
+    \item rotation
+    \item translation
+    \item plane
+\end{compactitem}
+
+\subsection{signs}
+Since potential is defined as 
+\begin{equation}
+    \phi(a)=-\int_{\infty}^a \vec{g} \cdot \vec{dr}
+\end{equation}
+
+where $\vec{g}= -(GM/r^2)\hat{r}$ and $\vec{dr}=-r \hat{r}$, which results in 
+$$\phi(a)=-\int_{\infty}^a \frac{GM}{r^2}dr \neq -\int_{\infty}^a -\frac{GM}{r^2}dr$$
+where the second integral is what we use most of the time. \textbf{So why is it like this?}
+
+This is because of the fact that you are integrating from $-\infty$ to $a$, which already accounted for the direction of $dr$, meaning that instead of $\vec{dr}=r \hat{r}\neq =-r \hat{r}$. 
+
+
+\section{06/10/2022}
+\subsection{Integration with substitution}
+When doing substitution, ignore limit first. After integrating, convert new variable back to the old variable before substituting in the original limit. 
+
+\subsection{Optics}
+When using the thin lens equation ($1/u+1/v=1/f$)
+
+\begin{enumerate}
+    \item $f>0$ means mirror is converging, $f<0$ means mirror is diverging. 
+    \item when $u,v>0$, image is real. When $u,v<0$, image is virtual.
+\end{enumerate}
+
+If two thin lens with focal length $f_1$ and $f_2$ stick together, the effective focal length is 
+\begin{equation}
+    \frac{1}{f_\textsf{eff}}=\frac{1}{f_1}+\frac{1}{f_2}
+\end{equation}
+
+\subsection{Thin film interference}
+\begin{enumerate}
+    \item For light travelling from $n_1$ to $n_2$, if $n_1>n_2$, there is no phase change upon reflection. If $n_1<n_2$ where is a phase change of 180 degrees upon reflection. (See Fresnel's equations).
+    \item  $\lambda$ used in calculation should be the wavelength in vacuum. 
+    \item Do all calculations with \textbf{optical distances}, which is the real measured distance, $d$, multiplied by the refractive index of the medium $n$. 
+\end{enumerate}
+
+
+\subsubsection{Trivial}
+For composite lens/mirror problems, determine \textbf{number of imaging process.}

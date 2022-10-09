@@ -10,13 +10,23 @@
 \usepackage[most]{tcolorbox}
 \usepackage{amssymb}
 \usepackage{tikz}
+
+\usetikzlibrary{arrows,decorations.markings}
+\usetikzlibrary{calc}
+\usetikzlibrary{arrows.meta}% <-- new arrow library sinc version 3.0 of TikZ
+
 \usepackage{float}
 \usepackage{amsthm}
 \renewcommand{\qedsymbol}{$\blacksquare$}
 \usepackage[margin=1in]{geometry}
 \usepackage{xcolor}
 %Options: Sonny, Lenny, Glenn, Conny, Rejne, Bjarne, Bjornstrup
-\usepackage[Bjornstrup]{fncychap}
+\usepackage[Sonny]{fncychap}
+\ChNameUpperCase
+\ChNumVar{\bfseries{\huge\sf}}
+
+\ChTitleVar{\bfseries{\Large\sf}}
+
 \interfootnotelinepenalty=10000
 
 \usepackage{tikzlings}
@@ -83,6 +93,7 @@
   #1,
 }
 
+\usepackage{paralist}
 
 \newcommand{\roundpic}[4][]{
   \tikz\node [circle, minimum width = #2,
@@ -96,8 +107,8 @@
 \definecolor{titlepagecolor}{cmyk}{1,.60,0,.40}
 \definecolor{namecolor}{cmyk}{1,.50,0,.10} 
 
-\begin{document}
 
+\begin{document}
 
 \begin{titlepage}
     \pagecolor{titlepagecolor}

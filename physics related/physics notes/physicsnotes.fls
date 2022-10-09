@@ -917,6 +917,22 @@ INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.s
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\pgf\frontendlayer\tikz.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryarrows.code.tex
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryarrows.code.tex
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryarrows.code.tex
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryarrows.code.tex
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.markings.code.tex
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.markings.code.tex
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.code.tex
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.code.tex
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\modules\pgfmoduledecorations.code.tex
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.markings.code.tex
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.markings.code.tex
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarycalc.code.tex
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarycalc.code.tex
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryarrows.meta.code.tex
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryarrows.meta.code.tex
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryarrows.meta.code.tex
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
@@ -979,7 +995,6 @@ INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\fncychap\fncychap.s
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\fncychap\fncychap.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\fncychap\fncychap.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\fncychap\fncychap.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\tikzlings\tikzlings.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\tikzlings\tikzlings.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\tikzlings\tikzlings.sty
@@ -1135,9 +1150,6 @@ INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\pgf\frontendlayer\t
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\tikzlings\tikzlings-addons.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.pathmorphing.code.tex
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.pathmorphing.code.tex
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.code.tex
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.code.tex
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\modules\pgfmoduledecorations.code.tex
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.pathmorphing.code.tex
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.pathmorphing.code.tex
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\tikzlings\tikzlings-coatis.sty
@@ -1196,8 +1208,6 @@ INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\pgf-blur\tikzlibrar
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\pgf-blur\tikzlibraryshadows.blur.code.tex
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshadows.code.tex
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshadows.code.tex
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarycalc.code.tex
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarycalc.code.tex
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\tikzlings\tikzlings-marmots.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\tikzlings\tikzlings-marmots.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\tikzlings\tikzlings-marmots.sty
@@ -1386,6 +1396,17 @@ INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarylindenmayersystems.code.tex
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibrarylindenmayersystems.code.tex
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibrarylindenmayersystems.code.tex
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\paralist\paralist.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\paralist\paralist.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\paralist\paralist.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\paralist\paralist.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\paralist\paralist.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\paralist\paralist.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\paralist\paralist.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\paralist\paralist.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\paralist\paralist.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\paralist\paralist.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\paralist\paralist.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss12.tfm
 INPUT .\physicsnotes.aux
 INPUT physicsnotes.aux
@@ -1453,8 +1474,8 @@ INPUT .\logo.jpg
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmssbx10.tfm
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss17.tfm
 INPUT C:\Users\licyn\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss17.tfm
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmssbx10.tfm
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss17.tfm
 INPUT .\physicsnotes.toc
 INPUT physicsnotes.toc
 INPUT physicsnotes.toc
@@ -1493,19 +1514,13 @@ INPUT .\chapters\mech.tex
 INPUT chapters\mech.tex
 INPUT .\chapters\mech.tex
 INPUT chapters\mech.tex
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pzc.fd
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pzc.fd
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pzc.fd
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pzc.fd
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\zapfchan\pzcmi7t.tfm
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmssbx10.tfm
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx8.tfm
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx6.tfm
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss12.tfm
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmssbx10.tfm
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmssi12.tfm
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\zapfchan\pzcmi7t.vf
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\zapfchan\pzcmi8r.tfm
 INPUT .\pr 5.jpg
 INPUT .\pr 5.jpg
 INPUT pr 5.jpg
@@ -1572,6 +1587,7 @@ INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\ts1cmss.fd
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\ts1cmss.fd
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\ts1cmss.fd
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcss1200.tfm
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss8.tfm
 INPUT .\chapters\fluid.tex
 OUTPUT chapters\fluid.aux
 INPUT .\chapters\fluid.tex
@@ -1648,7 +1664,6 @@ INPUT .\physicsnotes.out
 INPUT .\physicsnotes.out
 INPUT C:\Users\licyn\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcss1200.pk
 INPUT C:\Users\licyn\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcss1200.pk
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\base\8r.enc
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
@@ -1703,5 +1718,3 @@ INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\urw\zapfchan\uzcmi8a.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\urw\zapfchan\uzcmi8a.pfb
