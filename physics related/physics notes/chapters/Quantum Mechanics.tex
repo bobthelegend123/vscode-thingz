@@ -1,0 +1,30 @@
+\chapter{Quantum Mechanics}
+This part is written after I graduated from Junior College in 2023. 
+
+\section{Schrodinger Equation}
+
+\subsection{Time-independent}
+\begin{equation}
+    \hat{H}\Psi = E\Psi
+\end{equation}
+
+\textbf{Hilbert Space:} The set of all square-integratable functions (mathematicians call it $L_2$). All wave-functions live in the Hilbert space. 
+
+The expectation value of an observable $Q(x,p)$ can be expressed in the inner product notation as 
+
+\begin{equation}
+    \langle Q \rangle = \langle \Psi^{*} | \hat{Q} \Psi \rangle.
+\end{equation}
+Because $Q$ represents a real observable, it does not have an imaginary part and hence $\langle Q\rangle ^*=\langle Q\rangle$.
+
+\begin{equation}
+    \langle Q\rangle=\langle Q\rangle^* \longrightarrow  \langle \Psi | \hat{Q} \Psi \rangle = \langle \hat{Q} \Psi | \Psi \rangle.
+\end{equation}
+An operator with such a property is known as a $\textbf{Hermitian Operators}$.
+
+The hermitian conjugate of an operator $\hat{Q}$ is defined as $\hat{Q}^\dagger$ such that: 
+\begin{equation}
+    \langle \Psi | \hat{Q} \Psi \rangle = \langle \hat{Q}^\dagger \Psi | \Psi \rangle.\footnote{For a hermitian operator, $\hat{Q}=\hat{Q}^\dagger$.}
+\end{equation}
+
+An observable $Q$ subject to some wavefunction $\Psi$ will not always return the same value (although the mean is always $\langle \Psi \rangle$). However, there exists wave functions $\Psi$ that produce the same value $q$ for all measurements of $Q$. Such functions are known as \textbf{determinate states}. 

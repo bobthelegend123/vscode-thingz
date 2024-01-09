@@ -173,3 +173,38 @@ If two thin lens with focal length $f_1$ and $f_2$ stick together, the effective
 
 \subsubsection{Trivial}
 For composite lens/mirror problems, determine \textbf{number of imaging process.}
+
+\section{Experimental round question - bifilar pendulum}
+\begin{equation}
+    E=-mg\ell\cos\theta + \frac{1}{2}I\dot{\phi}^2
+\end{equation}
+
+where $\ell \theta = L\phi /2$ ($\ell$ is string length, $L$ is cube length). 
+
+We get 
+\begin{equation}
+    \frac{dE}{d\theta}=-mg\ell \bigg(1-\frac{\theta^2}{2} \bigg)+\frac{2 I \ell^2 \dot{\theta}}{L^2}^2
+\end{equation}
+\begin{equation}
+    0=\ddot{\theta}+\frac{mgL^2}{4 I \ell}\theta
+\end{equation}
+\begin{equation}
+    T=2\pi \sqrt{\frac{4 I \ell}{mgL^2}}
+\end{equation}
+where $m=\rho (L^3-L_2^3)$ and $I=\frac{1}{6}\rho L^5-\frac{1}{6} \rho L_2^5$
+
+Period is then:
+\begin{equation}
+    T^2=4\pi^2 \frac{2 (L^5-L_2^5) \ell}{3 (L^3-L_2^3)gL^2}
+\end{equation}
+
+Value of $T=0.93s$, $L=0.049m$, $\ell=0.255m$, $g=9.81 ms^{-2}$.\\
+
+$\boxed{ L_2 = 0.034m}$\\
+
+Using the lever method, 
+\begin{equation}
+    \frac{M_A}{M_A+\rho_w L_2^3}=0.8
+\end{equation}
+
+$\boxed{M_A=157g}$

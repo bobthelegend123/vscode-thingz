@@ -1,5 +1,5 @@
 PWD c:\Users\licyn\Desktop\vscode thingz\physics related\physics notes
-INPUT C:\Users\licyn\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT C:\Users\licyn\AppData\Local\MiKTeX\miktex\data\le\xetex\xelatex.fmt
 INPUT c:\Users\licyn\Desktop\vscode thingz\physics related\physics notes\physicsnotes.tex
 OUTPUT physicsnotes.log
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\extsizes\extreport.cls
@@ -17,7 +17,6 @@ INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\exscale.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\exscale.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\exscale.sty
@@ -259,6 +258,7 @@ INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\url\url.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\url\url.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\url\url.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\zapfding\pzdr.tfm
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\bitset\bitset.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\bitset\bitset.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\bitset\bitset.sty
@@ -300,26 +300,24 @@ INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\atbegshi-ltx.s
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\atbegshi-ltx.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\atbegshi\atbegshi.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\atbegshi-ltx.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hpdftex.def
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hpdftex.def
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hpdftex.def
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hpdftex.def
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\atveryend\atveryend.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\atveryend\atveryend.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\atveryend\atveryend.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\atveryend-ltx.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\atveryend\atveryend.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\atveryend\atveryend.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\atveryend-ltx.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\atveryend\atveryend.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\atveryend-ltx.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\atveryend-ltx.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\atveryend\atveryend.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\atveryend\atveryend.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\atveryend-ltx.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\atveryend-ltx.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\atveryend\atveryend.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\atveryend-ltx.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hxetex.def
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hxetex.def
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hxetex.def
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hxetex.def
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\stringenc\stringenc.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\stringenc\stringenc.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\stringenc\stringenc.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\stringenc\stringenc.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\stringenc\stringenc.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\stringenc\stringenc.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\stringenc\stringenc.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\stringenc\stringenc.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\stringenc\stringenc.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\stringenc\stringenc.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\stringenc\stringenc.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pdfescape\pdfescape.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
@@ -335,6 +333,21 @@ INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\kvoptions\kvoptions
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\infwarerr\infwarerr.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\atveryend\atveryend.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\atveryend\atveryend.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\atveryend\atveryend.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\atveryend-ltx.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\atveryend\atveryend.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\atveryend\atveryend.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\atveryend-ltx.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\atveryend\atveryend.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\atveryend-ltx.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\atveryend-ltx.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\atveryend\atveryend.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\atveryend\atveryend.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\atveryend-ltx.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\atveryend-ltx.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\atveryend\atveryend.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\atveryend-ltx.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
@@ -441,17 +454,75 @@ INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\cjk\CJKutf8.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\cjk\CJKutf8.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\cjk\CJKutf8.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\cjk\CJKutf8.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\cjk\CJKutf8.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\cjk\CJKutf8.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\cjk\CJKutf8.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\cjk\CJKutf8.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\cjk\CJKutf8.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\cjk\CJKutf8.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\cjk\CJKutf8.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifpdf.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifpdf.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifpdf.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifpdf.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifpdf.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifpdf.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifpdf.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifpdf.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifpdf.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifpdf.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifpdf.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\cjk\CJK.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\cjk\CJK.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\cjk\CJK.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\cjk\CJK.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\cjk\CJK.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\cjk\CJK.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\cjk\CJK.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\cjk\CJK.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\cjk\CJK.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\cjk\CJK.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\cjk\CJK.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\cjk\mule\MULEenc.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\cjk\mule\MULEenc.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\cjk\mule\MULEenc.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\cjk\mule\MULEenc.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\cjk\mule\MULEenc.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\cjk\mule\MULEenc.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\cjk\mule\MULEenc.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\cjk\mule\MULEenc.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\cjk\mule\MULEenc.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\cjk\mule\MULEenc.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\cjk\mule\MULEenc.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\cjk\CJK.enc
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\natbib\natbib.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\natbib\natbib.sty
@@ -515,10 +586,10 @@ INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphi
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\xetex.def
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\xetex.def
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\xetex.def
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\xetex.def
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\tcolorbox\tcolorbox.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\tcolorbox\tcolorbox.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\tcolorbox\tcolorbox.sty
@@ -592,8 +663,9 @@ INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\p
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgfkeysfiltered.code.tex
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgf.cfg
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-xetex.def
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-xetex.def
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-dvipdfmx.def
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
@@ -858,33 +930,6 @@ INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\tools\shellesc.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\tools\shellesc.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\tools\shellesc.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\listingsutf8\listingsutf8.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\listingsutf8\listingsutf8.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\listingsutf8\listingsutf8.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\listingsutf8\listingsutf8.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\listingsutf8\listingsutf8.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\listingsutf8\listingsutf8.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\listingsutf8\listingsutf8.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\listingsutf8\listingsutf8.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\listingsutf8\listingsutf8.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\listingsutf8\listingsutf8.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\listingsutf8\listingsutf8.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\stringenc\stringenc.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\stringenc\stringenc.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\stringenc\stringenc.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\stringenc\stringenc.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\stringenc\stringenc.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\stringenc\stringenc.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\stringenc\stringenc.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\stringenc\stringenc.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\stringenc\stringenc.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\stringenc\stringenc.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\stringenc\stringenc.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\infwarerr\infwarerr.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pdfescape\pdfescape.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\tcolorbox\tcbexternal.code.tex
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\tcolorbox\tcbmagazine.code.tex
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\tcolorbox\tcbvignette.code.tex
@@ -892,7 +937,6 @@ INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryfadings.code.tex
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryfadings.code.tex
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryfadings.code.tex
-OUTPUT physicsnotes.pdf
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\tcolorbox\tcbposter.code.tex
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
@@ -917,6 +961,17 @@ INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.s
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\pgf\frontendlayer\tikz.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\tools\multicol.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\tools\multicol.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\tools\multicol.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\tools\multicol.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\tools\multicol.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\tools\multicol.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\tools\multicol.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\tools\multicol.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\tools\multicol.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\tools\multicol.sty
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\tools\multicol.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryarrows.code.tex
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryarrows.code.tex
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryarrows.code.tex
@@ -1058,17 +1113,17 @@ INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-xetex.def
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-xetex.def
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-xetex.def
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-xetex.def
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-xetex.def
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-xetex.def
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-xetex.def
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-xetex.def
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-xetex.def
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-xetex.def
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-xetex.def
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\tikzlings\tikzlings-bats.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\tikzlings\tikzlings-bats.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\tikzlings\tikzlings-bats.sty
@@ -1407,7 +1462,6 @@ INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\paralist\paralist.s
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\paralist\paralist.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\paralist\paralist.sty
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\paralist\paralist.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss12.tfm
 INPUT .\physicsnotes.aux
 INPUT physicsnotes.aux
 INPUT physicsnotes.aux
@@ -1432,7 +1486,17 @@ INPUT chapters\math.aux
 INPUT .\chapters\PO training.aux
 INPUT chapters\PO training.aux
 INPUT chapters\PO training.aux
+INPUT .\chapters\Quantum Mechanics.aux
+INPUT chapters\Quantum Mechanics.aux
+INPUT chapters\Quantum Mechanics.aux
+INPUT .\chapters\China physics insane.aux
+INPUT chapters\China physics insane.aux
+INPUT chapters\China physics insane.aux
 OUTPUT physicsnotes.aux
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\ts1cmr.fd
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\ts1cmr.fd
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\ts1cmr.fd
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\ts1cmr.fd
 INPUT .\physicsnotes.out
 INPUT physicsnotes.out
 INPUT .\physicsnotes.out
@@ -1445,40 +1509,14 @@ INPUT .\physicsnotes.out
 INPUT .\physicsnotes.out
 OUTPUT physicsnotes.out
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT .\logo.jpg
 INPUT .\logo.jpg
 INPUT logo.jpg
-INPUT .\logo.jpg
-INPUT .\logo.jpg
-INPUT .\logo.jpg
-INPUT .\logo.jpg
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmssbx10.tfm
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss17.tfm
-INPUT C:\Users\licyn\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmssbx10.tfm
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss17.tfm
+OUTPUT physicsnotes.xdv
 INPUT .\physicsnotes.toc
 INPUT physicsnotes.toc
 INPUT physicsnotes.toc
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
@@ -1514,40 +1552,25 @@ INPUT .\chapters\mech.tex
 INPUT chapters\mech.tex
 INPUT .\chapters\mech.tex
 INPUT chapters\mech.tex
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmssbx10.tfm
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx8.tfm
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx6.tfm
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss12.tfm
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmssbx10.tfm
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmssi12.tfm
-INPUT .\pr 5.jpg
-INPUT .\pr 5.jpg
-INPUT pr 5.jpg
-INPUT .\pr 5.jpg
-INPUT .\pr 5.jpg
-INPUT .\pr 5.jpg
-INPUT .\pr 5.jpg
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss8.tfm
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss8.tfm
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmib10.tfm
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmmib8.tfm
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmmib6.tfm
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbsy10.tfm
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy8.tfm
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy6.tfm
+INPUT .\pr 5.jpg
+INPUT .\pr 5.jpg
+INPUT pr 5.jpg
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx5.tfm
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss10.tfm
 INPUT .\graph latex.jpeg
 INPUT .\graph latex.jpeg
 INPUT graph latex.jpeg
-INPUT .\graph latex.jpeg
-INPUT .\graph latex.jpeg
-INPUT .\graph latex.jpeg
-INPUT .\graph latex.jpeg
 INPUT .\chapters\EM.tex
 OUTPUT chapters\EM.aux
 INPUT .\chapters\EM.tex
@@ -1564,8 +1587,6 @@ INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\sym
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss8.tfm
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmssbx10.tfm
 INPUT .\chapters\thermo.tex
 OUTPUT chapters\thermo.aux
 INPUT .\chapters\thermo.tex
@@ -1578,16 +1599,6 @@ INPUT chapters\thermo.tex
 INPUT .\velocity space.png
 INPUT .\velocity space.png
 INPUT velocity space.png
-INPUT .\velocity space.png
-INPUT .\velocity space.png
-INPUT .\velocity space.png
-INPUT .\velocity space.png
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\ts1cmss.fd
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\ts1cmss.fd
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\ts1cmss.fd
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\base\ts1cmss.fd
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcss1200.tfm
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss8.tfm
 INPUT .\chapters\fluid.tex
 OUTPUT chapters\fluid.aux
 INPUT .\chapters\fluid.tex
@@ -1609,10 +1620,6 @@ INPUT chapters\special relativity.tex
 INPUT .\minkowski.png
 INPUT .\minkowski.png
 INPUT minkowski.png
-INPUT .\minkowski.png
-INPUT .\minkowski.png
-INPUT .\minkowski.png
-INPUT .\minkowski.png
 INPUT .\chapters\math.tex
 OUTPUT chapters\math.aux
 INPUT .\chapters\math.tex
@@ -1638,6 +1645,28 @@ INPUT .\chapters\PO training.tex
 INPUT chapters\PO training.tex
 INPUT .\chapters\PO training.tex
 INPUT chapters\PO training.tex
+INPUT .\chapters\Quantum Mechanics.tex
+INPUT .\chapters\Quantum Mechanics.tex
+INPUT .\chapters\Quantum Mechanics.tex
+OUTPUT chapters\Quantum Mechanics.aux
+INPUT .\chapters\Quantum Mechanics.tex
+INPUT .\chapters\Quantum Mechanics.tex
+INPUT .\chapters\Quantum Mechanics.tex
+INPUT chapters\Quantum Mechanics.tex
+INPUT .\chapters\Quantum Mechanics.tex
+INPUT chapters\Quantum Mechanics.tex
+INPUT .\chapters\China physics insane.tex
+OUTPUT chapters\China physics insane.aux
+INPUT .\chapters\China physics insane.tex
+INPUT .\chapters\China physics insane.tex
+INPUT .\chapters\China physics insane.tex
+INPUT .\chapters\China physics insane.tex
+INPUT chapters\China physics insane.tex
+INPUT .\chapters\China physics insane.tex
+INPUT chapters\China physics insane.tex
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\cjk\UTF8\UTF8.bdg
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\cjk\UTF8\UTF8.enc
+INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex\latex\cjk\UTF8\UTF8.chr
 INPUT physicsnotes.aux
 INPUT .\chapters\mech.aux
 INPUT chapters\mech.aux
@@ -1660,61 +1689,11 @@ INPUT chapters\math.aux
 INPUT .\chapters\PO training.aux
 INPUT chapters\PO training.aux
 INPUT chapters\PO training.aux
+INPUT .\chapters\Quantum Mechanics.aux
+INPUT chapters\Quantum Mechanics.aux
+INPUT chapters\Quantum Mechanics.aux
+INPUT .\chapters\China physics insane.aux
+INPUT chapters\China physics insane.aux
+INPUT chapters\China physics insane.aux
 INPUT .\physicsnotes.out
 INPUT .\physicsnotes.out
-INPUT C:\Users\licyn\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcss1200.pk
-INPUT C:\Users\licyn\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcss1200.pk
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx8.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx8.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi6.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi6.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmib10.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmib10.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr5.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr5.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr6.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr6.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmss10.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmss10.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmss12.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmss12.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmss17.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmss17.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmss8.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmss8.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmssbx10.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmssbx10.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmssi12.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmssi12.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy6.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy6.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb
-INPUT C:\Users\licyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb

@@ -1,6 +1,26 @@
-\chapter{Electromagnetism}
+\chapter{Electro-magnetism}
 
-\section{Electric field and potential}
+\section{Electrostatics}
+\begin{equation}
+    \begin{cases}
+        \nabla \cdot \vec{E} = \mathbf{\rho}/\epsilon_0 \\
+        \nabla \times \vec{E} = 0 \\
+        \oint \vec{E} \cdot d\vec {S}=Q/\epsilon_0
+      \end{cases}
+\end{equation}
+
+Similarly for gravity, 
+\begin{equation}
+    \begin{cases}
+        \nabla \cdot \vec{g} = -4 \pi G \rho_m \\
+        \nabla \times \vec{g} = 0 \\
+        \oint \vec{g} \cdot d\vec {S}=-4\pi GM
+    \end{cases}
+\end{equation}
+When a system of point charges is in equilibrium, the total potential energy of the system is zero. \footnote{Choose an origin $O$, and scale the system up about $O$ continuously. Since at all points in time, there are no forces on the charges, no external work is done. The final potential energy of the system is also 0 as charges are infinitely away. Hence, the initial potential energy must be 0.}
+
+
+\subsection{Electric field and potential}
 Potential and field are related by the following equation
 \begin{equation}
     -\int_A^B E \cdot ds = V(B)-V(A)
@@ -10,8 +30,65 @@ I think the intuition is that a \textbf{positive workdone by E field} always res
 \begin{mybox}{green}{Intuition}
     when the E field is pointing away from a \textbf{positive charge}, to move the \textbf{negative test charge} away from the positive charge, you need a force with magnitude of at least $qE$ and opposite in direction of the force of attraction. Workdone by that force results in an increase in potential (less negative) by conservation of energy. Since $Eq$ always points in the opposite direction of that force, $qE$ always points in direction of decreasing potential.
 \end{mybox}
-\subsection{Faraday's law of induction}
-\subsection{More about electromotive force}
+
+\subsection{Potential Energy}
+The potential energy of a set of point charges is 
+\begin{equation}
+    U=\frac{1}{4\pi\epsilon_0} \sum_{i\neq j} \frac{q_i q_j}{|\mathbf{r_i}-\mathbf{r_j}|}=\frac{1}{2}\sum_i q_i V(\mathbf{r_i})
+\end{equation}
+For a continuous charge distribution
+\begin{equation}
+    U=\frac{1}{2}\int \rho(\mathbf{r})V(\mathbf{r})d^3 \mathbf{r}=\frac{\epsilon_0}{2}\int |\mathbf{E(r)}|^2 d^3 \mathbf{r}
+\end{equation}
+
+For gravity, 
+\begin{equation}
+    U=\frac{1}{2}\int \rho_m(\mathbf{r})\phi(\mathbf{r})d^3 \mathbf{r}=-\frac{1}{8\pi G}\int |\mathbf{g(r)}|^2 d^3 \mathbf{r}
+\end{equation}
+Energy does not obey the superposition principle.
+
+\subsection{Action and Reaction forces}
+A tricky, ocassionally useful idea is to use Newton's third law; it may be easier to calculate the force of A on B than the force of B on A. 
+
+The integral $\int d\mathbf{S}$ over a surface with a fixed boundary is independent of the surface. For example, this integral over a hemisphere gives $\pi R^2$
+
+\subsection{Electrostatic Pressure}
+For a conductor with surface charge density $\sigma$, the outward pressure on the charges at this point is $\sigma^2/2\epsilon_0$
+
+\begin{proof}
+    Firstly, always remember that the following applies to discontinuity of E-field across a surface with charge density $\sigma$ (USAPhO 2008 A1):
+    \begin{equation}
+        \Delta \mathbf{E}_\perp=E_{\textsf{out}}-E_{\textsf{in}}=\sigma/\epsilon_0
+    \end{equation}
+    Since $E_\textsf{in}=0$, $E_{\textsf{out}}=\sigma/\epsilon$. Hence, the E field exerted by the rest of the conductor is $\sigma/2\epsilon_0$.
+\end{proof}
+
+\subsection{Method of image charges}
+For a grounded spherical conductor of radius $r$, with a charge $Q$ placed a distacne with $R$ away from the center of the sphere, the image charge is $q=Qr/R$ at a distacne $r^2/R$ from the centre.
+
+\subsubsection{Conformal mapping}
+In general, there are very few situations where the charge distribution on a conductor can be found explicitly. However, there is a neat trick called "conformal mapping". For example, we can find the charge distribution on a conducting disc by squashing a spherical shell ($E_\textsf{in}=0$) all the way down to the $xy$ plane while keeping track of the charge density at every point geometrically.
+
+\subsection{Grounding}
+Grounding a conductor just means setting its voltage to $0$. One assumes the ground is an "infinite" reservoir of charge. Grounding a conductor means that now charge can flow in/out of the reservoir so that the final charge $Q$ on the conductor is such that its voltage is $0$. \textbf{This final value $Q$ is not necessarily $0$!}
+
+\subsection{Uniqueness Theorem}
+It is a very powerful theorem. If a charge configuration can satisfy boundary conditions, then it \textbf{must be the configuration}. For example, for conductor, if a theoretical charge configuration can make the field 0 everywhere inside the conductor, it must be a valid configuration. Sometimes, the configuration does not satisfy the total charge. In such cases, one can superimpose different possible configurations together to satisfy the total charge. 
+
+\subsection{Capacitance}
+If the problem gives charges and want the potentials, or vice versa, one can build up the answer by suing principle of superposition, computing all the fields you need, e.g. using Gauss's law. 
+
+For a system of $N$ conductors, 
+\begin{equation}
+    Q_i=\sum_{j=1}^N C_{ij} \phi_j
+\end{equation}
+
+For a single conductor with charge $Q$, $Q=C\phi$ where $\phi$ is the potential difference between conductor and infinity.
+
+For a set of two isolated conductors with charge $\pm Q$, capacitance is $Q=C\phi$ where $\phi$ is the potential difference between the two conductors.
+
+\section{Electrodynamics}
+\subsection{Electromotive Force}
 
 In the circuit, the flowing electrons experience 2 forces, namely the force provided by the external agent, such as the battery ($\vec{f_s}$), and the force provided by E-field due to the build-up of charges around the circuit ($\vec{E}$).
 
@@ -26,7 +103,7 @@ The emf (electromotive force) is defined as
 This is because $\oint \mathbf{E} \cdot d\mathbf{s}=0$.
 
 
-\section{Different kinds of "Current"}
+\subsection{Different kinds of "Current"}
 \subsubsection{linear current}
 \begin{equation}
     \mathbf{I}=\lambda \mathbf{v}
@@ -50,8 +127,16 @@ The unit for $\sigma$ is $[A][m]^{-2}[s]$
 \begin{equation}
     \mathbf{J}=\frac{d\mathbf{I}}{da_\perp}=\rho \mathbf{v}
 \end{equation}
-\section{Vector potential is pretty gae}
 
+\section{Magnostatics}
+\subsection{Magnetic field}
+To find magnetic field, we use the Biot-Savart Law
+\begin{equation}
+    \mathbf{B(r)}=\frac{\mu_0}{4\pi} \int \frac{\mathbf{I}\times \hat{r}}{r^2}d\ell=\frac{\mu_0}{4\pi} \int \frac{\mathbf{K}\times \hat{r}}{r^2}d\mathbf{a}=\frac{\mu_0}{4\pi}\int \frac{\mathbf{J}\times \hat{r}}{r^2}d\mathbf{v}
+\end{equation}
+where the integration is along the current path, in the direction of the flow. 
+
+\subsection{Vector Potential}
 \begin{proof}[Vector potential]
     In electrostatics, we have $-\nabla \mathbf{V}=\mathbf{E}$, thanks to the fact that $\nabla \times \mathbf{V}=0$.
     Apparently, we can also define such a potential ($\mathbf{V}$) for magnostatics ($\mathbf{A}$).
@@ -198,7 +283,7 @@ Paramagnets acquire a magnetisation parallel to $\mathbf{B}$ while diamagnets ac
     \end{equation}
 \end{mybox}
 
-\section{Vector potential of a rotating, charged sphere}
+\subsection{Vector potential of a rotating, charged sphere}
 \begin{mybox}{red}{Problem Statement}
     A spherical shell of radius $R$, carrying a uniform surface charge $\sigma$, is  set spinning at angular velocity $\omega$. Find the vector potential it produces at point $r$.
 \end{mybox}
@@ -452,7 +537,7 @@ To derive magnetic field from vector potential, we have to calculate it with $\m
     \end{dcases*}
 \end{equation}
 
-\section{Magnetisation}
+\subsection{Magnetisation}
 The magnetisation, $\mathbf{M}$ is defined as the magnetic dipole moment per unit volume.
 Since $\nabla \times \mathbf{M}=\mathbf{J_b}$, where $\mathbf{J_b}$ refers to the \textbf{bound current}. Bound current refers to \textit{invisible} current in the magnet due to magnetisation. There is another type of current called \textbf{free current} ($\mathbf{J_f}$). This is the current due to a battery, or a voltage source etc. In the case where both $\mathbf{J_f}$ and $\mathbf{J_b}$ are steady currents, we can apply the equation:
 \begin{equation}
@@ -497,11 +582,4 @@ A short cylinder has a divergence in magnetisation at the ends (and possibly als
     \boxed{\textsf{Ans}=\frac{2R}{2021}}\nonumber
 \end{equation}
 
-\section{Things to remember}
-Firstly, always remember that the following applies to discontinuity of E-field across a surface with charge density $\sigma$ (USAPhO 2008 A1):
-\begin{equation}
-    \Delta \mathbf{E}_\perp=\sigma/\epsilon_0
-\end{equation}
 
-\subsection{Grounding}
-Grounding a conductor just means setting its voltage to $0$. One assumes the ground is an "infinite" reservoir of charge. Grounding a conductor means that now charge can flow in/out of the reservoir so that the final charge $Q$ on the conductor is such that its voltage is $0$. \textbf{This final value $Q$ is not necessarily $0$!}

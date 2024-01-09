@@ -10,22 +10,62 @@ Let the frame $S'$ be moving at speed $v$ relative to a stationary frame $S$. De
 \subsection{basics}
 \textbf{Time dilation}
 \begin{equation}
-    t'=\frac{t}{\gamma}=\gamma t'
+    t'=\frac{t}{\gamma}
 \end{equation}
 \textbf{Length contraction}
 \begin{equation}
-    \ell'=\gamma\ell = \frac{\ell'}{\gamma}
-\end{equation}
+    \ell'=\frac{\ell}{\gamma}
+\end{equation} \footnote{$t'$ and $\ell'$ are the time and length in the moving frame $S'$.}
 where $\gamma=1/\sqrt{1-\frac{v^2}{c^2}}$
 Since $c$ is the maximum possible speed a thing can reach, $\gamma$ will always be \textbf{greater than or equal to} 1. 
 \subsection{Lorentz transformation}
+When $S'$ is moving in the positive $x$ direction relative to $S$, the Lorentz transformation is written as follows: 
+
+\begin{multicols}{2}
+    \begin{equation}
+        \begin{bmatrix}
+            ct' \\
+            x'
+        \end{bmatrix}
+        =
+        \begin{bmatrix}
+            \gamma & -\beta \gamma \\
+            -\beta \gamma & \gamma 
+        \end{bmatrix}
+        \begin{bmatrix}
+            ct\\
+            x 
+        \end{bmatrix}
+    \end{equation}\break
+
+
+    \begin{equation}
+        \begin{bmatrix}
+            ct \\
+            x
+        \end{bmatrix}
+        =
+        \begin{bmatrix}
+            \gamma & \beta \gamma \\
+            \beta \gamma & \gamma 
+        \end{bmatrix}
+        \begin{bmatrix}
+            ct'\\
+            x'
+        \end{bmatrix}
+    \end{equation}
+\end{multicols}
+
+This is lorentz transformation in the matrix form, where the transformation matrix is known as the \textbf{lorentz boost}. \textcolor{blue}{To boost from the $S$ frame to the $S'$ frame, we have the "$-$" sign. To boost from the $S'$ frame to the $S$ frame, we have the "$+$" sign.}
+
+
 \begin{equation}
     \begin{cases}
       \Delta x= \gamma (\Delta x' + v \Delta t') \\
       \Delta t= \gamma (\Delta t'+v \frac{\Delta x'}{c^2})\\
     \end{cases}      
 \end{equation} 
-or
+
 \begin{equation}
     \begin{cases}
       \Delta x'= \gamma (\Delta x - v \Delta t) \\
@@ -40,7 +80,7 @@ From the equation above and setting $\Delta x'$ to 0, we see that $\Delta t=\gam
 However, if we set $\Delta x$ to 0 and use the second set of equation, we get $\Delta t'=\gamma \Delta t$. This seems to be a contradiction. But in fact, this scenario is very different as the stationary observer is now in the $S$ frame (and not the $S'$ frame).
 
 \subsection{relativistic velocity addition}
-Let $v_1$ be the speed of the object measured in the frame: $S'$ moving at speed $v_2$ relative to the ground.
+Let $v_1$ be the speed of the object measured in the frame $S'$, which is moving at speed $v_2$ relative to the ground.
 
 Writing out the lorentz transformation for $S'$, we get 
 
@@ -59,7 +99,16 @@ The derivation \textbf{above} only applies to velocity addition in the \textbf{l
 \begin{equation}
     \frac{\Delta y}{\Delta t}=\frac{\Delta y'}{\gamma (\Delta t'+v \frac{\Delta x'}{c^2})} =\frac{\Delta y'/\Delta t'}{\gamma (1 +v \frac{\Delta x'/\Delta t'}{c^2})}= \frac{v_y'}{\gamma (1+v'_x\frac{v}{c^2})}
 \end{equation}
-I think this could be easily derived using 4-vectors, but becuase i havent learnt that yet, so idk LMAO. 
+
+Now, let's derive this result with \textbf{4-vectors}. The velocity 4-vector, $V^\mu$, is
+\begin{equation}
+    V^\mu = (\gamma_{v_1} c, \gamma_{v_1} \vec {v_1})
+\end{equation}
+Setting $c=1$ so that our equations do not get too messy, $V^\mu_{S'}=(\gamma_{v_1}, \gamma_{v_1}, 0,0)$ in $S'$. In $S$, $V^\mu_S = (\gamma_w, \gamma_w w, 0,0)$, where $w$ is the speed of the object in $S$ frame. Using the fact that \textbf{inner dot product of 4-vector is invariant across all reference frames}\footnote{In general, the inner dot product of 4 vectors, $K^\mu W_\mu=K_0W_0-K_1W_1-K_2W_2-K_3W_3$}, we can write
+\begin{equation}
+    V^\mu_{S'} \cdot V_{\mu,S'} = V^\mu_S \cdot V_{\mu,S}.
+\end{equation}
+Solving for $w$, we should get the same answer. 
 
 \subsection{invariance and minkowski diagram}
 Consider the quantity $(\Delta s)^2= c^2(\Delta t)^2- (\Delta x)^2$, where $s$ (dropping the $\Delta$ from now on) is known as the \textbf{invariant interval} because this quantity is invariant to coordinates (i.e. $ct-x=ct'-x'$, $(ct, x)$ is usually known as the \textbf{spacetime interval}). 
@@ -125,6 +174,10 @@ To solve collisions problems, it is nice to define a \textbf{4- momentum}, or $P
     P\cdot P=m^2
 \end{equation}
 
+\subsection{Optimal Collisions}
+The minimum energy configuration of a system of particles with fixed total momentum is the one where they all move with the same velocity. This is easiest to show by boosting to the center of mass frame (i.e. the frame with zero total momentum) and then boosting back.
+
+
 \subsection{Force}
 
 
@@ -157,6 +210,5 @@ Consider two inertial frame $S$ and $S'$, such that $S'$ is moving at speed $v$ 
         z
     \end{bmatrix}
 \end{equation}
-This is lorentz transformation in the matrix form, where the transformation matrix is known as the \textbf{lorentz boost} to boost from the $S$ frame to the $S'$ frame.
 
 

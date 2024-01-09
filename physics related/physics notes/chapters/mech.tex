@@ -1,5 +1,10 @@
 \chapter{Mechanics}
-\section{Relating velocities}
+\section{Kinematics}
+Differential equations in physics olympiad are usually \textbf{linear} (e.g. $\dot{x} \ddot{x}$ cannot exist), \textbf{homgeneous} (\textbf{all} terms are proportional to one power of $x$ or its derivatives) and \textbf{time translation invariant} (no functions of time appear other than $x$ and its derivatives).
+
+Differential equations with the above properties can be solved by the same method. We can promote $x(t)$ to a complex $\tilde{x}(t)=e^{i\omega t}$, substitute this "solution" into the differential equation, and superposing the different $\omega$ obtained to get the general solution.
+
+\subsection{Relating velocities}
 Always remember to draw vector triangles to try to relate velocities of objects.
 \begin{mybox}{gray}{Example from \textbf{Morin 8.16}}
     Basically part of the question requires us to relate the relative velocity between the 3 identical cylinders (2 below, 1 on top)
@@ -59,6 +64,66 @@ Always remember to draw vector triangles to try to relate velocities of objects.
 
 \end{figure}
 
+\subsection{Projectile motion}
+Range on plane inclined at angle $\phi$ is maximised when launch angle with respect to the plane, $\theta=(\pi/2-\phi)/2$ (along the angle bisector of the vertical and the plane).
+
+One can show that the set of points a projectile can reach with some initial speed $v$ is a parabola with a focus at the launching point with equation
+\begin{equation}
+    y=\frac{v^2}{2g}-\frac{g}{2v^2}x^2
+\end{equation}
+
+A parabola is defined as a set of points where the distacne from the focus is the same as the distance from the directrix. This fact can be used to prove many things. The directrix of an envelope is a distance $d=1/4a$ from the turning point. 
+
+\begin{enumerate}
+    \item The final velocity of the projectile when it touches the envelope, $\mathbf{v_f}$ is perpendicular to the initial velocity $\mathbf{v_i}$.
+    \item Since $\mathbf{v_f}$ is tangent to the envelope, it is along the angle bisector between the vertical and line from focus to the point. 
+\end{enumerate}
+
+
+
+\subsection{Minimisation}
+To find the minimum value of some quantity, it is often useful to think about all possible values of that quantity. This can reveal a solution using geometry or symmetry. It is useful to also consider velocity space and space time to visualise the process. 
+
+\subsection{Kinematics involving friction}
+In problems with friction, the best reference frame to use is almost always the frame of whatever is causing the friction. 
+
+\subsection{Rabbit and fox problem}
+Problem can be solved by considering the rate of change of horizontal distance and rate of change of velocity vector that connects the rabbit and the fox. You will see that $r+x$ is conserved (very important fact).
+
+\subsection{Non-inertial reference frames}
+I think fictitious forces are just there to make sure that everything works on in non-inertial reference frames as well.
+
+\subsubsection{Translational}
+Let the lab frame be $S$, and the non inertial frame moving at $\vec{a_0}$ be $S'$. If the object's acceleration is $\vec{a}$ in the lab frame, its acceleration in the non-inertial frame would be $\vec{a}-\vec{a_0}=\vec{a'}$. The fictitious force present is thus $-m \vec{a_0}$. (translational force)
+
+\subsubsection{Rotational}
+Consider a system of reference, which rotates around the origin $O$ with an angular velocity $\boldsymbol{\omega}$. Consider a point $P$, which is motionless in the ortating system, and let us denote $\vec{r}=\vec{OP}$.
+In the lab system of reference, the point $P$ moves with velocity $\mathbf{v}=\frac{d\mathbf{r}}{dt}=\mathbf{r} \times \boldsymbol{\omega}$. Now, if the point $P$ moves in the rotating frame of refernece with velocity $\mathbf{u}=\frac{d\mathbf{r}}{d\tau}$ ($\tau$ is used to emasure the time in the rotating system), then this additional velocity needs to be added to what should have been for a motionless point:
+$$\frac{d\mathbf{r}}{dt}=\frac{d\mathbf{r}}{d\tau}+\boldsymbol{\omega}\times \mathbf{r}$$
+So, we can conclude that the time-derivatives of vectors in rotating and lab frames of refernce are related via equality
+$$\frac{d}{dt}=\frac{d\mathbf{r}}{d\tau}+\boldsymbol{\omega}\times . $$
+This is written in the form of an operator, which means that we can write any vector (e.g. $\mathbf{r}$,$\mathbf{v}$) rightwards of all the three terms. In particular, we can apply this formula to the right and left hand sides of the equality $\mathbf{v}=\mathbf{u}+\boldsymbol{\omega} \times \mathbf{r}$
+
+$$\frac{d\mathbf{v}}{dt}=\bigg(\frac{d}{d\tau}+\boldsymbol{\omega}\times\bigg)\bigg(\mathbf{u}+\boldsymbol{\omega}\times\mathbf{r}\bigg)
+    \\
+    = \frac{d\mathbf{u}}{d\tau}+\boldsymbol{\omega}\times\mathbf{u}+\frac{d(\boldsymbol{\omega}\times \mathbf{r})}{d\tau}+\boldsymbol{\omega}\times(\boldsymbol{\omega}\times \mathbf{r})$$
+We obtain
+$$\frac{d\mathbf{v}}{dt}=\frac{d\mathbf{u}}{d\tau}+2\boldsymbol{\omega}\times\mathbf{u}-\boldsymbol{\omega}^2\mathbf{r}$$
+
+Recall that $\frac{d\mathbf{v}}{dt}$ is the acceleration of the point $P$ as seen in the lab frame of refernce, and $\frac{d\mathbf{u}}{d\tau}$ is the same as seen in the rotating frame of reference. now, if $P$ is a point mass $m$, and thee is an external force $\mathbf{F}$ acting on $P$, then $\mathbf{F}=m\frac{d\mathbf{v}}{dt}$ and hence,
+\begin{equation}
+    m\frac{d\mathbf{u}}{d\tau}=\mathbf{F}-2\boldsymbol{\omega}\times\mathbf{u}m+\boldsymbol{\omega}^2\mathbf{r}m
+\end{equation}
+\subsubsection{Unconventional method}
+For rotating masses, we can work in the complex plane $r=x+iy$. The general solution for the path is 
+\begin{equation}
+    r(t)=r_0 + r_1 e^{i\omega_1 t}
+\end{equation}
+where $omega_1$ is the angular frequency \textbf{in} the rotating frame. 
+To transform back to the lab frame, we just need to multiply by $e^{i\omega_0t}$, where $\omega_0$ is the angular frequency \textbf{of} the rotating frame.
+
+\textcolor{blue}{In general, complex numbers are useful to deal with magnetic or Coriolis forces for motion in a plane. In these cases the force lies in a plane perpendicular to the velocity, so it's just proportional to $i\dot{r}$.}
+
 \section{Friction}
 \subsection{Friction on inclined slope}
 If a body is on the verge of slipping (or already slipping), then the sum of the friction force and the reaction force is angled by $\arctan{\mu}$ from the surface normal. This is actually quite useful in certain questions. \textcolor{blue}{\textit{Sometimes, we don't even have to resolve forces by projecting their components onto axes. We can instead add them up vectorially by drawing vector diagram (head to tail).}} This can be shown in the example below from \textit{Jaan Kalda's Mechanics handout}.
@@ -82,9 +147,6 @@ If a body is on the verge of slipping (or already slipping), then the sum of the
         \mu \geq \frac{\mid a\cos\alpha-g\sin\alpha \mid}{g\cos\alpha+a\sin\alpha}
     \end{equation}
     Both inequalities have to be satisfied for the block to remain on the slope.
-
-    \tcblower
-    \textbf{Method 2} \quad heheheh
 \end{mybox}
 
 
@@ -143,27 +205,6 @@ I am not sure about this, but this is what i see people do on PhOD to solve ques
     \item Try to fit that to the classic SHM equation (maybe can simplify RHS and expand to first order in $\delta$): $\ddot{x}+\omega^2 x = 0$, and use $\omega = \sqrt \frac{k}{m}$
 \end{enumerate}
 
-\section{Non-inertial reference frames}
-I think fictitious forces are just there to make sure that everything works on in non-inertial reference frames as well.
-\subsection{Translational}
-Let the lab frame be $S$, and the non inertial frame moving at $\vec{a_0}$ be $S'$. If the object's acceleration is $\vec{a}$ in the lab frame, its acceleration in the non-inertial frame would be $\vec{a}-\vec{a_0}=\vec{a'}$. The fictitious force present is thus $-m \vec{a_0}$. (translational force)
-
-\subsection{Rotational}
-Consider a system of reference, which rotates around the origin $O$ with an angular velocity $\boldsymbol{\omega}$. Consider a point $P$, which is motionless in the ortating system, and let us denote $\vec{r}=\vec{OP}$.
-In the lab system of reference, the point $P$ moves with velocity $\mathbf{v}=\frac{d\mathbf{r}}{dt}=\mathbf{r} \times \boldsymbol{\omega}$. Now, if the point $P$ moves in the rotating frame of refernece with velocity $\mathbf{u}=\frac{d\mathbf{r}}{d\tau}$ ($\tau$ is used to emasure the time in the rotating system), then this additional velocity needs to be added to what should have been for a motionless point:
-$$\frac{d\mathbf{r}}{dt}=\frac{d\mathbf{r}}{d\tau}+\boldsymbol{\omega}\times \mathbf{r}$$
-So, we can conclude that the time-derivatives of vectors in rotating and lab frames of refernce are related via equality
-$$\frac{d}{dt}=\frac{d\mathbf{r}}{d\tau}+\boldsymbol{\omega}\times . $$
-This is written in the form of an operator, which means that we can write any vector (e.g. $\mathbf{r}$,$\mathbf{v}$) rightwards of all the three terms. In particular, we can apply this formula to the right and left hand sides of the equality $\mathbf{v}=\mathbf{u}+\boldsymbol{\omega} \times \mathbf{r}$
-
-$$\frac{d\mathbf{v}}{dt}=\bigg(\frac{d}{d\tau}+\boldsymbol{\omega}\times\bigg)\bigg(\mathbf{u}+\boldsymbol{\omega}\times\mathbf{r}\bigg)
-    \\
-    = \frac{d\mathbf{u}}{d\tau}+\boldsymbol{\omega}\times\mathbf{u}+\frac{d(\boldsymbol{\omega}\times \mathbf{r})}{d\tau}+\boldsymbol{\omega}\times(\boldsymbol{\omega}\times \mathbf{r})$$
-We obtain
-$$\frac{d\mathbf{v}}{dt}=\frac{d\mathbf{u}}{d\tau}+2\boldsymbol{\omega}\times\mathbf{u}-\boldsymbol{\omega}^2\mathbf{r}$$
-
-Recall that $\frac{d\mathbf{v}}{dt}$ is the acceleration of the point $P$ as seen in the lab frame of refernce, and $\frac{d\mathbf{u}}{d\tau}$ is the same as seen in the rotating frame of reference. now, if $P$ is a point mass $m$, and thee is an external force $\mathbf{F}$ acting on $P$, then $\mathbf{F}=m\frac{d\mathbf{v}}{dt}$ and hence,
-$$m\frac{d\mathbf{u}}{d\tau}=\mathbf{F}-2\boldsymbol{\omega}\times\mathbf{u}m+\boldsymbol{\omega}^2\mathbf{r}m$$
 \section{SJPO2021 Special Round Qn}
 \begin{mybox}{gray}{Da question}
 
@@ -366,6 +407,8 @@ ohhhhhh penguinnn
 \section{Torque}
 \subsection{Generally speaking...}
 The method where you prove $\sum\tau=0$ by extending lines of action (LOA) of the object and make sure they intersect, \textbf{it only works for a group of 2/3 forces}. So let's say if you have $5$ forces in total, to make the net torque 0, the LOA of 2 of the forces intersect at one point, while the LOA of the remaining 3 forces intersect at another point. (lmao learn something new everyday)
+
+If the total force vanishes, the total torque about any point is 0. If the total force is not 0, then this is no longer the case. 
 \subsection{Tilting and hanging objects}
 \begin{enumerate}
     \item For an object to not tilt, the \textbf{COM must be directly above the contact point}. 

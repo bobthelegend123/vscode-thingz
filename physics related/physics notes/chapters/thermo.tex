@@ -1,11 +1,11 @@
 \chapter{Thermodynamics}
 \section{Kinetic theory}
-If KE is dependent on temperature, whats the difference between a cold moving ball, and a hot stationary ball. This is because the former is about \textbf{microscopic}, but the latter is about \textbf{macroscopic}. 
+If KE is dependent on temperature, whats the difference between a cold moving ball, and a hot stationary ball. This is because the former is about \textbf{macroscopic}, but the latter is about \textbf{microscopic}. 
 
 Because it is not feasible to model the motion of every single molecules with newton's laws, it is more convenient to use probability.
 
 \subsection{Probability distribution}
-We are working with \textbf{continuous} probability distribution $P(x) $where $0 \leq P(x) \leq 1$. The area under the curve (let's say from $a$ to $b$, $b>a$) would be the probability of the number $n$ to be $a\leq n\leq b$
+We are working with \textbf{continuous} probability distribution $P(x) $ where $0 \leq P(x) \leq 1$. The area under the curve (let's say from $a$ to $b$, $b>a$) would be the probability of the number $n$ to be $a\leq n\leq b$.
 
 \subsection{velocity distribution}
 let the velocity probability distribution be $g(v_x)$
@@ -62,7 +62,7 @@ Most probable speed: $df/dv=0$
     v=\sqrt{\frac{2k_BT}{m}}
 \end{equation}
 
-Note: $m$ stand for the \textbf{molar mass} lmao not the actual mass of all the gas molecules. 
+Note: $m$ stand for the \textbf{mass of a single molecule}.
 
 \subsection{Equipartition theorem}
 Every degree of freedom will contribute $k_B T/2$ to the internal energy. 
@@ -71,12 +71,6 @@ Every degree of freedom will contribute $k_B T/2$ to the internal energy.
 \end{equation}
 
 More rigorous form: Each quadratic mode with energy in the form of $E=\alpha x^2$, where $x$ can be position or velocity, contributes $k_BT/2$ to the internal energy (so its not really about degree of freedom). It just so happens that both rotational and translational energy are $\propto v^2, \omega^2$
-
-\subsection{Ideal gas law}
-\begin{equation}
-    p=\frac{1}{3}n m \langle v^2 \rangle
-\end{equation}
-where $n$ is the number of molecules per unit volume. and $m$ is the mass of the molecules.
 
 \section{How molecules move}
 \subsection{Solid Angle}
@@ -107,11 +101,17 @@ To find the number of particles hitting the wall \textbf{per unit area} and \tex
 \end{align}
 From here, you can derive the ideal gas equation: $pV=nRT$
 
+\subsection{Ideal gas law}
+\begin{equation}
+    p=\frac{1}{3}\rho_n m \langle v^2 \rangle
+\end{equation}
+where $\rho_n$ is the number of molecules per unit volume. and $m$ is the mass of a single gas molecule.
+
 \subsection{Molecular flux}
 Molecular flux is the number of molecules striking the unit area per unit time (second). To calculate this, we just
 \begin{align}
-    \int_{0}^{\infty}\int_0^{\frac{\pi}{2}} &=\rho_n f(v)\bigg(\frac{1}{2}\sin\theta\bigg)\,dv\,d\theta \,v \cos \theta\\
-    \Phi &= \frac{1}{4}\rho_n \langle v \rangle
+    \int_{0}^{\infty}\int_0^{\frac{\pi}{2}} &=\rho_n f(v)\bigg(\frac{1}{2}\sin\theta\bigg)\,dv\,d\theta \,v \cos \theta \nonumber \\
+    \Phi &= \frac{1}{4}\rho_n \langle v \rangle = \frac{1}{4} \bigg(\frac{p}{kT}\bigg) \sqrt{\frac{8k_BT}{\pi m}}= \frac{p}{\sqrt{2\pi m kT}}
 \end{align}
 where molecular flux is usually denoted as $\Phi$. So if you have a box with a hole of area $A$ through which gas is allowed to escape, the number of molecules escaping per second would just be $N=\Phi A$. This process is called \textbf{Effusion}. Note that this formula only works if the area, $A$, is small. If $A$ is large, you will need to consider edge effects as the particles bouncing off some other surface can also escape through the hole. So, how small should the hole be? The condition is that 
 \begin{equation}
@@ -123,8 +123,8 @@ Mean free path is the average distance that a gas particle can travel before it 
 
 The mean collision time, $\tau$, is the average time that a gas particle takes to collide with another particle. We can define $\sigma$ as the cross-sectional area of the particle, and $P(t)$ as the probability of a particle \textbf{not} colliding up to a time $t$. 
 \begin{align}
-    P(t+dt)&=P(t)+\frac{dP}{dt}dt\\
-    &= \underbrace{P(t)}_{\textsf{Probability of not colliding up till $t$}} \times \underbrace{(....)}_{\textsf{probability of not colliding in $dt$}}\\
+    P(t+dt)&=P(t)+\frac{dP}{dt}dt \nonumber \\
+    &= \underbrace{P(t)}_{\textsf{Probability of not colliding up till $t$}} \times \underbrace{(....)}_{\textsf{probability of not colliding in $dt$}}
 \end{align} 
 In time $dt$, the particle will sweep a volume of $v\sigma dt$, and we want no molecule to be inside this volume. The probability of having a molecule inside this volume is $\rho_n v \sigma dt$, hence
 \begin{equation}
@@ -140,11 +140,13 @@ Probability that it collides in the next $dt$ is
 \end{equation}
 Averaging it out across all time,
 \begin{align}
-    \langle t \rangle &= \int_0^{\infty}t(e^{-\rho_n \sigma v t})(\rho_n \sigma v dt)\\
+    \langle t \rangle &= \int_0^{\infty}t(e^{-\rho_n \sigma v t})(\rho_n \sigma v dt) \nonumber \\
     \tau &= \frac{1}{\rho_n \sigma v}
 \end{align}
 
-Since $\lambda=\langle v\rangle \tau = \langle v_r \rangle/\rho_n \sigma v$ where $v_r$ is the relative speed. And according to maxwell boltzmann disribution, $\langle v \rangle \approx \sqrt {\langle v_r ^2 \rangle} \approx \sqrt{2} \langle v \rangle$
+However, we should instead use the relative speed, ${\langle v_r ^2 \rangle}$ instead of ${\langle v \rangle}$. Hence, the mean collision time, $\tau = 1/(\rho_n \sigma \sqrt{2}{\langle v \rangle})$ and mean free path, $\lambda={\langle v \rangle}\tau=1/(\sqrt{2}\rho_n\sigma)$
+
+% Since $\lambda=\langle v\rangle \tau = \langle v_r \rangle/\rho_n \sigma v$ where $v_r$ is the relative speed. And according to maxwell boltzmann disribution, $\langle v \rangle \approx \sqrt {\langle v_r ^2 \rangle} \approx \sqrt{2} \langle v \rangle$
 
 \section{First Law of thermodynamics}
 The first law of thermodynamics state that:

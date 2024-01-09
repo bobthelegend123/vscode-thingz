@@ -1,0 +1,6 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Number Theory}{2}{}%
+\contentsline {section}{\numberline {2}Function}{2}{}%
+\contentsline {section}{\numberline {3}Inequality}{2}{}%
+\contentsline {subsection}{\numberline {3.1}substitution}{2}{}%
+\contentsline {subsection}{\numberline {3.2}齐此化}{2}{}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7.30) (preloaded format=pdflatex 2022.8.5)  8 OCT 2022 22:28
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.7.30) (preloaded format=xelatex 2023.6.7)  9 JAN 2024 20:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -19,15 +19,15 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
 \big@size=\dimen138
 )
-\c@part=\count185
-\c@chapter=\count186
-\c@section=\count187
-\c@subsection=\count188
-\c@subsubsection=\count189
-\c@paragraph=\count190
-\c@subparagraph=\count191
-\c@figure=\count192
-\c@table=\count193
+\c@part=\count181
+\c@chapter=\count182
+\c@section=\count183
+\c@subsection=\count184
+\c@subsubsection=\count185
+\c@paragraph=\count186
+\c@subparagraph=\count187
+\c@figure=\count188
+\c@table=\count189
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen139
@@ -44,7 +44,7 @@ Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
+Package pdftexcmds Info: \pdfdraftmode not found.
 ) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
@@ -69,25 +69,21 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
  (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count194
+\c@section@level=\count190
 )
 \@linkdim=\dimen140
-\Hy@linkcounter=\count195
-\Hy@pagecounter=\count196
+\Hy@linkcounter=\count191
+\Hy@pagecounter=\count192
  (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2022-06-20 v7.00s Hyperref: PDFDocEncoding definition (HO)
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
 ) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 ) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count197
+\Hy@SavedSpaceFactor=\count193
  (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2022-06-20 v7.00s Hyperref: PDF Unicode definition (HO)
-Now handling font encoding PU ...
-... no UTF-8 mapping file for font encoding PU
 )
 Package hyperref Info: Hyper figures OFF on input line 4162.
 Package hyperref Info: Link nesting OFF on input line 4167.
@@ -96,7 +92,7 @@ Package hyperref Info: Plain pages OFF on input line 4177.
 Package hyperref Info: Backreferencing OFF on input line 4182.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4408.
-\c@Hy@tempcnt=\count198
+\c@Hy@tempcnt=\count194
  (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -108,7 +104,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count199
+\Fld@menulength=\count195
 \Field@Width=\dimen142
 \Fld@charsize=\dimen143
 Package hyperref Info: Hyper figures OFF on input line 6024.
@@ -122,22 +118,27 @@ Package hyperref Info: PDF/A mode OFF on input line 6054.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count266
-\c@Item=\count267
-\c@Hfootnote=\count268
+\Hy@abspage=\count196
+\c@Item=\count197
+\c@Hfootnote=\count198
 )
-Package hyperref Info: Driver (autodetected): hpdftex.
- (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2022-06-20 v7.00s Hyperref driver for pdfTeX
+Package hyperref Info: Driver (autodetected): hxetex.
+ (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hxetex.def
+File: hxetex.def 2022-06-20 v7.00s Hyperref driver for XeTeX
+ (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+\pdfm@box=\box51
+\c@Hy@AnnotLevel=\count199
+\HyField@AnnotCount=\count266
+\Fld@listcount=\count267
+\c@bookmark@seq@number=\count268
+ (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
  (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
-)
-\Fld@listcount=\count269
-\c@bookmark@seq@number=\count270
- (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
-Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
- (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
@@ -147,15 +148,15 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
  (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count271
-\calc@Bcount=\count272
+\calc@Acount=\count269
+\calc@Bcount=\count270
 \calc@Adimen=\dimen144
 \calc@Bdimen=\dimen145
 \calc@Askip=\skip50
 \calc@Bskip=\skip51
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count273
+\calc@Ccount=\count271
 \calc@Cskip=\skip52
 ) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
@@ -176,19 +177,19 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 ) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count274
+\inf@bad=\count272
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count275
-\leftroot@=\count276
+\uproot@=\count273
+\leftroot@=\count274
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count277
-\DOTSCASE@=\count278
+\classnum@=\count275
+\DOTSCASE@=\count276
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box51
-\strutbox@=\box52
+\Mathstrutbox@=\box52
+\strutbox@=\box53
 LaTeX Info: Redefining \big on input line 722.
 LaTeX Info: Redefining \Big on input line 723.
 LaTeX Info: Redefining \bigg on input line 724.
@@ -196,20 +197,20 @@ LaTeX Info: Redefining \Bigg on input line 725.
 \big@size=\dimen148
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count279
+\macc@depth=\count277
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count280
+\c@MaxMatrixCols=\count278
 \dotsspace@=\muskip17
-\c@parentequation=\count281
-\dspbrk@lvl=\count282
+\c@parentequation=\count279
+\dspbrk@lvl=\count280
 \tag@help=\toks18
-\row@=\count283
-\column@=\count284
-\maxfields@=\count285
+\row@=\count281
+\column@=\count282
+\maxfields@=\count283
 \andhelp@=\toks19
 \eqnshift@=\dimen149
 \alignsep@=\dimen150
@@ -224,7 +225,7 @@ LaTeX Info: Redefining \Relbar on input line 971.
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
-\g_MT_multlinerow_int=\count286
+\g_MT_multlinerow_int=\count284
 \l_MT_multwidth_dim=\dimen155
 \origjot=\skip56
 \l_MT_shortvdotswithinadjustabove_dim=\dimen156
@@ -233,23 +234,41 @@ LaTeX Info: Redefining \] on input line 2954.
 \l_MT_below_intertext_sep=\dimen159
 \l_MT_above_shortintertext_sep=\dimen160
 \l_MT_below_shortintertext_sep=\dimen161
-\xmathstrut@box=\box53
+\xmathstrut@box=\box54
 \xmathstrut@dim=\dimen162
+) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/cjk\CJKutf8.sty
+Package: CJKutf8 2021/10/16 4.8.5
+ (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
 ) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks22
 \inpenc@posthook=\toks23
-) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/cjk\CJK.sty
+Package: CJK 2021/10/16 4.8.5
+ (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/cjk/mule\MULEenc.sty
+Package: MULEenc 2021/10/16 4.8.5
+) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/cjk\CJK.enc
+File: CJK.enc 2021/10/16 4.8.5
+)
+\CJK@indent=\box55
+) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip57
 \bibsep=\skip58
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count287
+\c@NAT@ctr=\count285
 ) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
 \wrapoverhang=\dimen163
 \WF@size=\dimen164
-\c@WF@wrappedlines=\count288
-\WF@box=\box54
+\c@WF@wrappedlines=\count286
+\WF@box=\box56
 \WF@everypar=\toks24
 Package: wrapfig 2003/01/31  v 3.6
 ) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
@@ -261,9 +280,9 @@ Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 ) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 107.
- (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+Package graphics Info: Driver file: xetex.def on input line 107.
+ (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\xetex.def
+File: xetex.def 2022/04/16 v5.0m Graphics/color driver for xetex
 ))
 \Gin@req@height=\dimen165
 \Gin@req@width=\dimen166
@@ -274,7 +293,7 @@ Package: tcolorbox 2022/06/24 version 5.1.1 text color boxes
 \pgfutil@tempdima=\dimen167
 \pgfutil@tempdimb=\dimen168
  (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common-lists.tex)) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
-\pgfutil@abb=\box55
+\pgfutil@abb=\box57
 ) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
 Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
 ))
@@ -299,26 +318,30 @@ Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@yd=\dimen178
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count289
-\c@pgf@countb=\count290
-\c@pgf@countc=\count291
-\c@pgf@countd=\count292
+\c@pgf@counta=\count287
+\c@pgf@countb=\count288
+\c@pgf@countc=\count289
+\c@pgf@countd=\count290
 \t@pgf@toka=\toks29
 \t@pgf@tokb=\toks30
 \t@pgf@tokc=\toks31
-\pgf@sys@id@count=\count293
+\pgf@sys@id@count=\count291
  (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
 )
-Driver file for pgf: pgfsys-pdftex.def
- (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+Driver file for pgf: pgfsys-xetex.def
+ (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-xetex.def
+File: pgfsys-xetex.def 2021/05/15 v3.1.9a (3.1.9a)
+ (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-dvipdfmx.def
+File: pgfsys-dvipdfmx.def 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)
+\pgfsys@objnum=\count292
 ))) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfsyssoftpath@smallbuffer@items=\count294
-\pgfsyssoftpath@bigbuffer@items=\count295
+\pgfsyssoftpath@smallbuffer@items=\count293
+\pgfsyssoftpath@bigbuffer@items=\count294
 ) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
@@ -326,10 +349,9 @@ Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
  (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Driver file: xetex.def on input line 227.
  (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex-dev/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
 Package xcolor Info: Model `RGB' extended on input line 1369.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
@@ -341,13 +363,13 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
 \pgfmath@dimen=\dimen179
-\pgfmath@count=\count296
-\pgfmath@box=\box56
+\pgfmath@count=\count295
+\pgfmath@box=\box58
 \pgfmath@toks=\toks32
 \pgfmath@stack@operand=\toks33
 \pgfmath@stack@operation=\toks34
 ) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex))) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count297
+\c@pgfmathroundto@lastzeros=\count296
 )) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@picminx=\dimen180
@@ -374,10 +396,10 @@ File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@shorten@start@additional=\dimen197
 ) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfpic=\box57
-\pgf@hbox=\box58
-\pgf@layerbox@main=\box59
-\pgf@picture@serial@count=\count298
+\pgfpic=\box59
+\pgf@hbox=\box60
+\pgf@layerbox@main=\box61
+\pgf@picture@serial@count=\count297
 ) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgflinewidth=\dimen198
@@ -398,13 +420,13 @@ File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@max=\dimen259
-\pgf@sys@shading@range@num=\count299
-\pgf@shadingcount=\count300
+\pgf@sys@shading@range@num=\count298
+\pgf@shadingcount=\count299
 ) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfexternal@startupbox=\box60
+\pgfexternal@startupbox=\box62
 )) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
@@ -415,7 +437,7 @@ File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ))) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfnodeparttextbox=\box61
+\pgfnodeparttextbox=\box63
 ) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
@@ -435,25 +457,25 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count301
+\etb@tempcnta=\count300
 )
-\tcb@titlebox=\box62
-\tcb@upperbox=\box63
-\tcb@lowerbox=\box64
-\tcb@phantombox=\box65
-\c@tcbbreakpart=\count302
-\c@tcblayer=\count303
-\c@tcolorbox@number=\count304
-\tcb@temp=\box66
-\tcb@temp=\box67
+\tcb@titlebox=\box64
+\tcb@upperbox=\box65
+\tcb@lowerbox=\box66
+\tcb@phantombox=\box67
+\c@tcbbreakpart=\count301
+\c@tcblayer=\count302
+\c@tcolorbox@number=\count303
 \tcb@temp=\box68
 \tcb@temp=\box69
+\tcb@temp=\box70
+\tcb@temp=\box71
  (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbraster.code.tex
 Library (tcolorbox): 'tcbraster.code.tex' version '5.1.1'
-\c@tcbrastercolumn=\count305
-\c@tcbrasterrow=\count306
-\c@tcbrasternum=\count307
-\c@tcbraster=\count308
+\c@tcbrastercolumn=\count304
+\c@tcbrasterrow=\count305
+\c@tcbrasternum=\count306
+\c@tcbraster=\count307
 ) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskins.code.tex
 Library (tcolorbox): 'tcbskins.code.tex' version '5.1.1'
 (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
@@ -467,7 +489,7 @@ Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
 Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count309
+\pgf@plot@mark@count=\count308
 \pgfplotmarksize=\dimen264
 )
 \tikz@lastx=\dimen265
@@ -478,36 +500,37 @@ File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \tikz@lastmovetoy=\dimen270
 \tikzleveldistance=\dimen271
 \tikzsiblingdistance=\dimen272
-\tikz@figbox=\box70
-\tikz@figbox@bg=\box71
-\tikz@tempbox=\box72
-\tikz@tempbox@bg=\box73
-\tikztreelevel=\count310
-\tikznumberofchildren=\count311
-\tikznumberofcurrentchild=\count312
-\tikz@fig@count=\count313
+\tikz@figbox=\box72
+\tikz@figbox@bg=\box73
+\tikz@tempbox=\box74
+\tikz@tempbox@bg=\box75
+\tikztreelevel=\count309
+\tikznumberofchildren=\count310
+\tikznumberofcurrentchild=\count311
+\tikz@fig@count=\count312
  (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count314
-\pgfmatrixcurrentcolumn=\count315
-\pgf@matrix@numberofcolumns=\count316
+\pgfmatrixcurrentrow=\count313
+\pgfmatrixcurrentcolumn=\count314
+\pgf@matrix@numberofcolumns=\count315
 )
-\tikz@expandcount=\count317
+\tikz@expandcount=\count316
  (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )))
-\tcb@waterbox=\box74
+\tcb@waterbox=\box76
  (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskinsjigsaw.code.tex
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '5.1.1'
 )) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbbreakable.code.tex
 Library (tcolorbox): 'tcbbreakable.code.tex' version '5.1.1'
 (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/oberdiek\pdfcol.sty
 Package: pdfcol 2019/12/29 v1.6 Handle new color stacks for pdfTeX (HO)
+Package pdfcol Info: Interface disabled because of missing PDF mode of pdfTeX.
 )
-Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
-\tcb@testbox=\box75
-\tcb@totalupperbox=\box76
-\tcb@totallowerbox=\box77
+Package pdfcol Info: pdfTeX's color stacks are not available.
+\tcb@testbox=\box77
+\tcb@totalupperbox=\box78
+\tcb@totallowerbox=\box79
 ) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbhooks.code.tex
 Library (tcolorbox): 'tcbhooks.code.tex' version '5.1.1'
 ) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbtheorems.code.tex
@@ -517,29 +540,29 @@ Library (tcolorbox): 'tcbfitting.code.tex' version '5.1.1'
 \tcbfitdim=\dimen273
 \tcb@lowerfitdim=\dimen274
 \tcb@upperfitdim=\dimen275
-\tcb@cur@hbadness=\count318
+\tcb@cur@hbadness=\count317
 ) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblistingsutf8.code.tex
 Library (tcolorbox): 'tcblistingsutf8.code.tex' version '5.1.1'
 (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblistings.code.tex
 Library (tcolorbox): 'tcblistings.code.tex' version '5.1.1'
 (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count319
-\lst@gtempboxa=\box78
+\lst@mode=\count318
+\lst@gtempboxa=\box80
 \lst@token=\toks39
-\lst@length=\count320
+\lst@length=\count319
 \lst@currlwidth=\dimen276
-\lst@column=\count321
-\lst@pos=\count322
+\lst@column=\count320
+\lst@pos=\count321
 \lst@lostspace=\dimen277
 \lst@width=\dimen278
-\lst@newlines=\count323
-\lst@lineno=\count324
+\lst@newlines=\count322
+\lst@lineno=\count323
 \lst@maxwidth=\dimen279
  (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count325
-\lst@skipnumbers=\count326
-\lst@framebox=\box79
+\c@lstnumber=\count324
+\lst@skipnumbers=\count325
+\lst@framebox=\box81
 ) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
@@ -552,12 +575,10 @@ Library (tcolorbox): 'tcbprocessing.code.tex' version '5.1.1'
 Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 ))
-\c@tcblisting=\count327
-)) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/listingsutf8\listingsutf8.sty
-Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
- (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
-))) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbexternal.code.tex
+\c@tcblisting=\count326
+))
+Package tcolorbox Info: Library `listingsutf8' is compatible with pdftex only. Library `listings` is loaded instead. on input line 29.
+) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbexternal.code.tex
 Library (tcolorbox): 'tcbexternal.code.tex' version '5.1.1'
 ) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbmagazine.code.tex
 Library (tcolorbox): 'tcbmagazine.code.tex' version '5.1.1'
@@ -578,37 +599,105 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryarrows.code.tex
+)) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
+\c@tracingmulticols=\count327
+\mult@box=\box82
+\multicol@leftmargin=\dimen280
+\c@unbalance=\count328
+\c@collectmore=\count329
+\doublecol@number=\count330
+\multicoltolerance=\count331
+\multicolpretolerance=\count332
+\full@width=\dimen281
+\page@free=\dimen282
+\premulticols=\dimen283
+\postmulticols=\dimen284
+\multicolsep=\skip59
+\multicolbaselineskip=\skip60
+\partial@page=\box83
+\last@line=\box84
+\maxbalancingoverflow=\dimen285
+\mult@rightbox=\box85
+\mult@grightbox=\box86
+\mult@firstbox=\box87
+\mult@gfirstbox=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\@tempa=\box114
+\@tempa=\box115
+\@tempa=\box116
+\@tempa=\box117
+\@tempa=\box118
+\@tempa=\box119
+\@tempa=\box120
+\@tempa=\box121
+\@tempa=\box122
+\@tempa=\box123
+\@tempa=\box124
+\c@minrows=\count333
+\c@columnbadness=\count334
+\c@finalcolumnbadness=\count335
+\last@try=\dimen286
+\multicolovershoot=\dimen287
+\multicolundershoot=\dimen288
+\mult@nat@firstbox=\box125
+\colbreak@box=\box126
+\mc@col@check@num=\count336
+) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryarrows.code.tex
 File: tikzlibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\arrowsize=\dimen280
+\arrowsize=\dimen289
 )) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.markings.code.tex (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.code.tex (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen281
-\pgfdecoratedremainingdistance=\dimen282
-\pgfdecoratedinputsegmentcompleteddistance=\dimen283
-\pgfdecoratedinputsegmentremainingdistance=\dimen284
-\pgf@decorate@distancetomove=\dimen285
-\pgf@decorate@repeatstate=\count328
-\pgfdecorationsegmentamplitude=\dimen286
-\pgfdecorationsegmentlength=\dimen287
+\pgfdecoratedcompleteddistance=\dimen290
+\pgfdecoratedremainingdistance=\dimen291
+\pgfdecoratedinputsegmentcompleteddistance=\dimen292
+\pgfdecoratedinputsegmentremainingdistance=\dimen293
+\pgf@decorate@distancetomove=\dimen294
+\pgf@decorate@repeatstate=\count337
+\pgfdecorationsegmentamplitude=\dimen295
+\pgfdecorationsegmentlength=\dimen296
 )
-\tikz@lib@dec@box=\box80
+\tikz@lib@dec@box=\box127
 ) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.markings.code.tex)) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfarrowinset=\dimen288
-\pgfarrowlength=\dimen289
-\pgfarrowwidth=\dimen290
-\pgfarrowlinewidth=\dimen291
+\pgfarrowinset=\dimen297
+\pgfarrowlength=\dimen298
+\pgfarrowwidth=\dimen299
+\pgfarrowlinewidth=\dimen300
 ) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count329
+\c@float@type=\count338
 \float@exts=\toks40
-\float@box=\box81
+\float@box=\box128
 \@float@everytoks=\toks41
-\@floatcapt=\box82
+\@floatcapt=\box129
 ) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks42
@@ -616,36 +705,36 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@headfont=\toks44
 \thm@notefont=\toks45
 \thm@headpunct=\toks46
-\thm@preskip=\skip59
-\thm@postskip=\skip60
-\thm@headsep=\skip61
+\thm@preskip=\skip61
+\thm@postskip=\skip62
+\thm@headsep=\skip63
 \dth@everypar=\toks47
 ) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count330
-\Gm@cntv=\count331
-\c@Gm@tempcnt=\count332
-\Gm@bindingoffset=\dimen292
-\Gm@wd@mp=\dimen293
-\Gm@odd@mp=\dimen294
-\Gm@even@mp=\dimen295
-\Gm@layoutwidth=\dimen296
-\Gm@layoutheight=\dimen297
-\Gm@layouthoffset=\dimen298
-\Gm@layoutvoffset=\dimen299
+\Gm@cnth=\count339
+\Gm@cntv=\count340
+\c@Gm@tempcnt=\count341
+\Gm@bindingoffset=\dimen301
+\Gm@wd@mp=\dimen302
+\Gm@odd@mp=\dimen303
+\Gm@even@mp=\dimen304
+\Gm@layoutwidth=\dimen305
+\Gm@layoutheight=\dimen306
+\Gm@layouthoffset=\dimen307
+\Gm@layoutvoffset=\dimen308
 \Gm@dimlist=\toks48
  (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/fncychap\fncychap.sty
 Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
-\RW=\skip62
-\mylen=\skip63
-\myhi=\skip64
-\px=\skip65
-\py=\skip66
-\pyy=\skip67
-\pxx=\skip68
+\RW=\skip64
+\mylen=\skip65
+\myhi=\skip66
+\px=\skip67
+\py=\skip68
+\pyy=\skip69
+\pxx=\skip70
 ) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/tikzlings\tikzlings.sty
 Package: tikzlings 2022/06/17 version v1.0 Collection of packages to draw animals and other beings in TikZ
  (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/tikzlings\tikzlings-list.sty
@@ -660,10 +749,13 @@ File: tikzlibrarypatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 File: pgflibrarypatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2022-07-15 L3 programming layer (loader) 
- (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2022-07-01 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count333
-\l__pdf_internal_box=\box83
+ (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-xetex.def
+File: l3backend-xetex.def 2022-07-01 L3 backend support: XeTeX
+\g__graphics_track_int=\count342
+\l__pdf_internal_box=\box130
+\g__pdf_backend_object_int=\count343
+\g__pdf_backend_annotation_int=\count344
+\g__pdf_backend_link_int=\count345
 )))) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/tikzlings\tikzlings-bats.sty
 Package: tikzlings-bats 2022/06/17 version v1.0 Drawing bats in TikZ
 ) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/tikzlings\tikzlings-bears.sty
@@ -687,7 +779,7 @@ Package: tikzlings-koalas 2022/06/17 version v1.0 Drawing koalas in TikZ
  (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/pgf-blur\tikzlibraryshadows.blur.code.tex  v1.02, 2012/12/09 (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshadows.code.tex
 File: tikzlibraryshadows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-\pgfbs@fading@count=\count334
+\pgfbs@fading@count=\count346
 )) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/tikzlings\tikzlings-marmots.sty
 Package: tikzlings-marmots 2022/06/17 version v1.0 Drawing marmots in TikZ
 ) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/tikzlings\tikzlings-mice.sty
@@ -716,76 +808,127 @@ Package: tikzlings-squirrels 2022/06/17 version v1.0 Drawing squirrels in TikZ
 Package: tikzlings-wolves 2022/06/17 version v1.0 Drawing wolves in TikZ
 )) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2022/05/18 v4.0.3 Extensive control of page headers and footers
-\f@nch@headwidth=\skip69
-\f@nch@O@elh=\skip70
-\f@nch@O@erh=\skip71
-\f@nch@O@olh=\skip72
-\f@nch@O@orh=\skip73
-\f@nch@O@elf=\skip74
-\f@nch@O@erf=\skip75
-\f@nch@O@olf=\skip76
-\f@nch@O@orf=\skip77
+\f@nch@headwidth=\skip71
+\f@nch@O@elh=\skip72
+\f@nch@O@erh=\skip73
+\f@nch@O@olh=\skip74
+\f@nch@O@orh=\skip75
+\f@nch@O@elf=\skip76
+\f@nch@O@erf=\skip77
+\f@nch@O@olf=\skip78
+\f@nch@O@orf=\skip79
 ) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarylindenmayersystems.code.tex (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibrarylindenmayersystems.code.tex
-\pgflsystemstep=\dimen300
-\c@pgf@lsystem@iteration=\count335
+\pgflsystemstep=\dimen309
+\c@pgf@lsystem@iteration=\count347
 )) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/paralist\paralist.sty
 Package: paralist 2017/01/22 v2.7 Extended list environments
-\pltopsep=\skip78
-\plpartopsep=\skip79
-\plitemsep=\skip80
-\plparsep=\skip81
+\pltopsep=\skip80
+\plpartopsep=\skip81
+\plitemsep=\skip82
+\plparsep=\skip83
 \pl@lab=\toks49
-) (physicsnotes.aux (chapters/mech.aux) (chapters/EM.aux) (chapters/thermo.aux) (chapters/fluid.aux) (chapters/special relativity.aux) (chapters/math.aux) (chapters/PO training.aux))
+) (physicsnotes.aux (chapters/mech.aux) (chapters/EM.aux) (chapters/thermo.aux) (chapters/fluid.aux) (chapters/special relativity.aux) (chapters/math.aux) (chapters/PO training.aux) (chapters/Quantum Mechanics.aux) (chapters/China physics insane.aux))
 \openout1 = `physicsnotes.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-Package hyperref Info: Link coloring OFF on input line 111.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 113.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 113.
+ (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+Package hyperref Info: Link coloring OFF on input line 113.
  (physicsnotes.out) (physicsnotes.out)
 \@outlinefile=\write4
 \openout4 = `physicsnotes.out'.
 
- (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count336
-\scratchdimen=\dimen301
-\scratchbox=\box84
-\nofMPsegments=\count337
-\nofMParguments=\count338
-\everyMPshowfont=\toks50
-\MPscratchCnt=\count339
-\MPscratchDim=\dimen302
-\MPnumerator=\count340
-\makeMPintoPDFobject=\count341
-\everyMPtoPDFconversion=\toks51
-) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-))
-\c@lstlisting=\count342
+\c@lstlisting=\count348
 
 *geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
+*geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
+* driver: xetex
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -816,14 +959,11 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<logo.jpg, id=447, 1505.625pt x 1505.625pt>
-File: logo.jpg Graphic file (type jpg)
-<use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 116.
-(pdftex.def)             Requested size: 110.96556pt x 110.96422pt.
+File: logo.jpg Graphic file (type bmp)
+<logo.jpg>
 [1
 
-{C:/Users/licyn/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./logo.jpg>] (physicsnotes.toc
+] (physicsnotes.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
  (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -831,12 +971,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
  (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.40 ... {2.8}Things to remember}{19}{section.2.8}
-                                                  % [1
+) [1
 
 
 ]
@@ -847,7 +982,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[2])
+[2]
+Missing character: There is no 电 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 磁 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 对 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 称 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 性 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 信 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 息 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 熵 in font [lmsans12-regular]:mapping=tex-text;!
+)
 \tf@toc=\write5
 \openout5 = `physicsnotes.toc'.
 
@@ -864,19 +1008,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
  (chapters/mech.tex
 Chapter 1.
-LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <12> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 64.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 [4
 
 
 
 ]
-<pr 5.jpg, id=578, 492.03825pt x 239.09325pt>
-File: pr 5.jpg Graphic file (type jpg)
-<use pr 5.jpg>
-Package pdftex.def Info: pr 5.jpg  used on input line 68.
-(pdftex.def)             Requested size: 246.01852pt x 119.54633pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -884,7 +1023,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[5 <./pr 5.jpg>]
+[5]
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <12> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 129.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -893,9 +1035,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [6]
-Overfull \hbox (5.98598pt too wide) in paragraph at lines 236--237
-[][] 
- []
+File: pr 5.jpg Graphic file (type bmp)
+<pr 5.jpg>
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -905,12 +1046,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [7]
-<graph latex.jpeg, id=619, 509.65407pt x 274.77657pt>
-File: graph latex.jpeg Graphic file (type jpg)
-<use graph latex.jpeg>
-Package pdftex.def Info: graph latex.jpeg  used on input line 279.
-(pdftex.def)             Requested size: 284.52756pt x 153.40842pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -919,6 +1054,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [8]
+LaTeX Font Info:    Trying to load font information for TU+cmss on input line 274.
+LaTeX Font Info:    No file TUcmss.fd. on input line 274.
+
+
+LaTeX Font Warning: Font shape `TU/cmss/m/n' undefined
+(Font)              using `TU/lmr/m/n' instead on input line 274.
+
+
+Overfull \hbox (6.15273pt too wide) in paragraph at lines 277--278
+[][] 
+ []
+
+File: graph latex.jpeg Graphic file (type bmp)
+<graph latex.jpeg>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -926,12 +1075,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[9
-pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.335 \end{equation}
-                     <./graph latex.jpeg>]
+[9]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -939,7 +1083,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[10])
+[10]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -947,25 +1091,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[11]
+[11])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[12]
 \openout2 = `chapters/EM.aux'.
 
  (chapters/EM.tex
 Chapter 2.
-[12
+[13
 
 
 
 
 ]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[13]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1005,7 +1149,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[18])
+[18]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1013,27 +1157,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[19
-pdfTeX warning (ext4): destination with the same identifier (name{equation.2.31}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.139 \include{chapters/EM.tex}
-                               ]
-\openout2 = `chapters/thermo.aux'.
+[19]
 
- (chapters/thermo.tex
-Chapter 3.
-[20
-
-
-
-
-]
-<velocity space.png, id=752, 711.15688pt x 539.51563pt>
-File: velocity space.png Graphic file (type png)
-<use velocity space.png>
-Package pdftex.def Info: velocity space.png  used on input line 36.
-(pdftex.def)             Requested size: 226.48395pt x 171.81705pt.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1042,12 +1168,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[21
-pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.71 \end{equation}
-                    <./velocity space.png>]
+[20]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[21])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1056,18 +1185,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [22]
+\openout2 = `chapters/thermo.aux'.
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+ (chapters/thermo.tex
+Chapter 3.
+[23
 
-[23]
-LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 167.
- (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmss.fd
-File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
+
+
+
+]
+File: velocity space.png Graphic file (type bmp)
+<velocity space.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1107,7 +1237,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[28])
+[28]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1115,17 +1245,36 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[29
-pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.140 \include{chapters/thermo.tex}
-                                   ]
+[29]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[30]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[31])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[32]
 \openout2 = `chapters/fluid.aux'.
 
  (chapters/fluid.tex
 Chapter 4.
-) [30
+) [33
 
 
 
@@ -1135,17 +1284,20 @@ Chapter 4.
 
  (chapters/special relativity.tex
 Chapter 5.
-[31
+[34
 
 
 
 
 ]
-<minkowski.png, id=886, 379.91937pt x 373.395pt>
-File: minkowski.png Graphic file (type png)
-<use minkowski.png>
-Package pdftex.def Info: minkowski.png  used on input line 69.
-(pdftex.def)             Requested size: 135.89174pt x 133.56177pt.
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+
+ []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1154,48 +1306,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[32 <./minkowski.png>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[33])
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[34]
-\openout2 = `chapters/math.aux'.
-
- (chapters/math.tex
-Chapter 6.
-[35
-
-
-
-
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 59.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\omega' on input line 59.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 59.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 59.
+[35]
+File: minkowski.png Graphic file (type bmp)
+<minkowski.png>
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1221,16 +1334,32 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [38]
-\openout2 = `"chapters/PO training.aux"'.
+\openout2 = `chapters/math.aux'.
 
- (chapters/PO training.tex
-Chapter 7.
+ (chapters/math.tex
+Chapter 6.
 [39
 
 
 
 
 ]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 67.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\omega' on input line 67.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 67.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 67.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1254,29 +1383,171 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[42] (physicsnotes.aux (chapters/mech.aux) (chapters/EM.aux) (chapters/thermo.aux) (chapters/fluid.aux) (chapters/special relativity.aux) (chapters/math.aux) (chapters/PO training.aux))
+[42]
+\openout2 = `"chapters/PO training.aux"'.
+
+ (chapters/PO training.tex
+Chapter 7.
+[43
+
+
+
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[44]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[45]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[46]
+Underfull \hbox (badness 10000) in paragraph at lines 201--202
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
+
+ []
+
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[47]
+\openout2 = `"chapters/Quantum Mechanics.aux"'.
+
+ (chapters/Quantum Mechanics.tex
+Chapter 8.
+) [48
+
+
+
+
+]
+\openout2 = `"chapters/China physics insane.aux"'.
+
+ (chapters/China physics insane.tex (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/cjk/UTF8\UTF8.bdg
+File: UTF8.bdg 2021/10/16 4.8.5
+) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/cjk/UTF8\UTF8.enc
+File: UTF8.enc 2021/10/16 4.8.5
+) (C:\Users\licyn\AppData\Local\Programs\MiKTeX\tex/latex/cjk/UTF8\UTF8.chr
+File: UTF8.chr 2021/10/16 4.8.5
+)
+Chapter 9.
+Missing character: There is no 电 in font [lmsans10-bold]:mapping=tex-text;!
+Missing character: There is no 磁 in font [lmsans10-bold]:mapping=tex-text;!
+Missing character: There is no 对 in font [lmsans10-bold]:mapping=tex-text;!
+Missing character: There is no 称 in font [lmsans10-bold]:mapping=tex-text;!
+Missing character: There is no 性 in font [lmsans10-bold]:mapping=tex-text;!
+Missing character: There is no 代 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 表 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no ， in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 是 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 。 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 电 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 偶 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 极 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 矩 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no （ in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no ） in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 的 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 镜 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 像 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no （ in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no ） in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 跟 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 它 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 一 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 样 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no （ in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 因 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 为 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 不 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 光 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 电 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 极 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 相 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 反 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no ， in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 正 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 负 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 电 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 核 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 的 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 位 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 置 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 也 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 相 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 互 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 交 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 换 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no ） in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 。 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 单 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 独 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 电 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 核 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 的 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 话 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 量 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 一 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 样 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 大 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 但 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 是 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 极 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 却 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 相 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 反 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 。 in font [lmsans12-regular]:mapping=tex-text;!
+Missing character: There is no 信 in font [lmsans10-bold]:mapping=tex-text;!
+Missing character: There is no 息 in font [lmsans10-bold]:mapping=tex-text;!
+Missing character: There is no 熵 in font [lmsans10-bold]:mapping=tex-text;!
+) [49
+
+
+
+
+] (physicsnotes.aux (chapters/mech.aux) (chapters/EM.aux) (chapters/thermo.aux) (chapters/fluid.aux) (chapters/special relativity.aux) (chapters/math.aux) (chapters/PO training.aux) (chapters/Quantum Mechanics.aux) (chapters/China physics insane.aux))
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 Package rerunfilecheck Info: File `physicsnotes.out' has not changed.
-(rerunfilecheck)             Checksum: D658F2C67DD2CD2FAF09F5600660DA14;15269.
+(rerunfilecheck)             Checksum: 3750E21C186663897FBA968DB7BA824D;18448.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 266 ({)
+### simple group (level 1) entered at line 269 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 33925 strings out of 478337
- 713929 string characters out of 2836667
- 1257498 words of memory out of 3000000
- 51308 multiletter control sequences out of 15000+600000
- 486054 words of font info for 89 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 92i,20n,113p,964b,3394s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 34341 strings out of 410653
+ 700571 string characters out of 2816266
+ 1300936 words of memory out of 3000000
+ 54711 multiletter control sequences out of 15000+600000
+ 481663 words of font info for 93 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 93i,20n,113p,964b,3394s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
-
- <C:\Users\licyn\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss1200.pk><C:/Users/licyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/licyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/licyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/licyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/licyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/licyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/licyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/licyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/licyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/licyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/licyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/licyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/licyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/licyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/licyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/licyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/licyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/licyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/licyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Users/licyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/licyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/licyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi12.pfb><C:/Users/licyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/licyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/licyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/licyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/licyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on physicsnotes.pdf (43 pages, 1154153 bytes).
-PDF statistics:
- 1185 PDF objects out of 1200 (max. 8388607)
- 357 named destinations out of 1000 (max. 500000)
- 1018 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+Output written on physicsnotes.xdv (50 pages, 1006244 bytes).
